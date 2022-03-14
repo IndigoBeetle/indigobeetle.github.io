@@ -190,13 +190,6 @@ portfolio:
   url: '/portfolio/shmup/shmup.html'
 
 # Portfolio Item
-- title: Pendng.com
-  categories: [Web Applications]
-  image: pendng.png
-  thumb: pendng-thumb.png
-  url: 'https://app.pendng.com'
-  
-# Portfolio Item
 - title: Fruit Spritzer 
   categories: [Games]
   image: fruit.png

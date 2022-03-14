@@ -202,14 +202,7 @@ portfolio:
   image: tracker-radio.png
   thumb: tracker-radio-thumb.png
   url: 'https://indigobeetle.pythonanywhere.com'
-
-# Portfolio Item
-- title: Cact-Eye
-  categories: [Games]
-  image: cact-eye.png
-  thumb: cact-eye-thumb.png
-  url: 'https://indigobeetle.itch.io/cact-eye'
-
+    
 # Portfolio Item
 - title: Children's Games 
   categories: [Games]
@@ -223,6 +216,13 @@ portfolio:
   image: jack.png
   thumb: jack-thumb.png
   url: 'https://indigobeetle.itch.io/jumping-jack'
+
+# Portfolio Item
+- title: Cact-Eye
+  categories: [Games]
+  image: cact-eye.png
+  thumb: cact-eye-thumb.png
+  url: 'https://indigobeetle.itch.io/cact-eye'
 
 #####################################
 ########### Testimonials ############

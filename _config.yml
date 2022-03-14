@@ -226,7 +226,7 @@ portfolio:
     
 # Portfolio Item
 - title: Attach HQ
-  categories: [Web Applications, Websites]
+  categories: [Games]
   image: attack.png
   thumb: attack-thumb.png
   url: 'https://indigobeetle.itch.io/attack-hq'

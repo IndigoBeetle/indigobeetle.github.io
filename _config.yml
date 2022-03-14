@@ -223,6 +223,13 @@ portfolio:
   image: mardyboys.png
   thumb: mardyboys-thumb.png
   url: 'http://www.games.mardyboys.com/'
+    
+# Portfolio Item
+- title: Jumping Jack 
+  categories: [Games]
+  image: jack.png
+  thumb: jack-thumb.png
+  url: 'https://indigobeetle.itch.io/jumping-jack'
 
 #####################################
 ########### Testimonials ############

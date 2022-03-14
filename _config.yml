@@ -225,7 +225,7 @@ portfolio:
   url: 'https://indigobeetle.pythonanywhere.com'
     
 # Portfolio Item
-- title: Attach HQ
+- title: Attack HQ
   categories: [Games]
   image: attack.png
   thumb: attack-thumb.png

@@ -172,7 +172,7 @@ portfolio-description: Some of the projects and products I've worked on, profess
 #
 # Portfolio Grid
 #
-portfolio-categories: [Websites, Digital Audio, Games, Development, Web Applications]
+portfolio-categories: [Websites, Digital Audio, Games, Development, Web Applications, Graphics]
 portfolio:
 
 # Portfolio Item
@@ -230,6 +230,13 @@ portfolio:
   image: attack.png
   thumb: attack-thumb.png
   url: 'https://indigobeetle.itch.io/attack-hq'
+
+# Portfolio Item
+- title: Aqsis 
+  categories: [Graphics]
+  image: tugboat.jpeg
+  thumb: aqsis-thumb.png
+  url: 'http://www.aqsis.org'
 
 #####################################
 ########### Testimonials ############

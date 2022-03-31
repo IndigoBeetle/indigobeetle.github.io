@@ -1,0 +1,20 @@
+---
+layout: page
+title: "FruitSpritzer"
+---
+
+![FruitSpritzer](/images/portfolio/fruit.png){:class="img-responsive"}
+
+FruitSpritzer has gone through more iterations than any other personal project
+I've worked on. Starting out as a game created to experiment with the
+[Corona2D](https://coronalabs.com/) engine, I then ported the same code to
+Javascript (from Lua) to implement in [Phaser](https://phaser.io/), and finally
+ported to [Godot](https://godotengine.org/), which is what you can find at the
+link below.
+
+It is different in that, unlike many match 3 games, the board is always active,
+it doesn't prevent you making more moves while the effects of previous moves
+are still being felt throughout the board, in fact, it actively encourages it,
+speed is the key, don't delay, don't wait, just keep matching!
+
+Play the game [here](https://indigobeetle.itch.io/fruitspritzer)

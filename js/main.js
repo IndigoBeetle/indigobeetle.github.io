@@ -25,7 +25,8 @@
      **/
     setTimeout(function() {
       $('.page-loader').addClass('load-complete');
-    }, 1500);
+      revealVisiblePortfolioItems();
+    }, 200);
 
     /**
      *  Parallax with Scrollax.js - Initialization
@@ -97,7 +98,6 @@
         $portfolio_grid_item.removeClass('visible');
         $($data_filters).addClass('visible');
       }
-
     });
 
     // Show Image - Lightbox
@@ -134,10 +134,7 @@
 
     });
 
-    /**
-     *  Scroll Event
-     **/
-    $window.scroll(function() {
+    function revealVisiblePortfolioItems() {
 
       // Scroll Variables
       var $scrollTop = $window.scrollTop();
@@ -171,7 +168,12 @@
       if ($portfolio_grid && $portfolio_grid_item && $portfolio_grid_item.length > 0) {
         revealItem($portfolio_grid, $portfolio_grid_item);
       }
-    });
+    }
+
+    /**
+     *  Scroll Event
+     **/
+    $window.scroll(revealVisiblePortfolioItems);
 
     /**
      *  Testimonials Carousel Setup

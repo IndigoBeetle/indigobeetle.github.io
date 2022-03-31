@@ -4087,6 +4087,10 @@ section.portfolio-section .portfolio-grid .item .item-content .links ul li a spa
   top: -10px;
 }
 
+section.portfolio-section .portfolio-grid .item .item-content p.item-description {
+  text-align: center;
+}
+
 section.portfolio-section .portfolio-grid .overlay {
   display: none;
   position: fixed;

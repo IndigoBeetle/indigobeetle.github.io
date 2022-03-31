@@ -53,9 +53,12 @@
           <div class="links">
             <ul>
               <li><a href="{{ item.url }}" class="item-link"><span class="pe-7s-link"><span class="hidden-text">{{ item.title }}</span></span></a></li>
-              <li><a href="{{ site.baseurl }}/images/portfolio/{{ item.image }}" class="item-expand"><span class="pe-7s-exapnd2"><span class="hidden-text">{{ item.title }}</span></span></a></li>
+	      <!--<li><a href="{{ site.baseurl }}/images/portfolio/{{ item.image }}" class="item-expand"><span class="pe-7s-exapnd2"><span class="hidden-text">{{ item.title }}</span></span></a></li> -->
             </ul>
           </div>
+					{% if item.description %}
+						<p class="item-description">{{ item.description }}</p>
+					{% endif %}
         </div>
       </div>
 

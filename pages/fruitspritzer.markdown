@@ -5,6 +5,8 @@ title: "FruitSpritzer"
 
 ![FruitSpritzer](/images/portfolio/fruit.png){:class="img-responsive"}
 
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/fZRaFOUGMgE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 FruitSpritzer has gone through more iterations than any other personal project
 I've worked on. Starting out as a game created to experiment with the
 [Corona2D](https://coronalabs.com/) engine, I then ported the same code to

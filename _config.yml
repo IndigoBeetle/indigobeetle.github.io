@@ -67,9 +67,10 @@ banner-link: https://themeforest.net/collections/6069390-sera
 #youtube: '#'
 #pinterest: '#'
 facebook: 'https://www.facebook.com/indigobeetle/'
-#twitter: 'https://twitter.com/pcgregory'
+twitter: 'https://twitter.com/indigobeetle'
 #google-plus: '#'
 #vimeo: '#'
+linkedin: 'https://www.linkedin.com/in/pcgregory/'
 
 #########################
 ######   Widgets   ######
@@ -119,28 +120,34 @@ mailchimp:
 #####################################
 about-title: A Little About Me
 about-description: |+
-  Hi, I'm Paul, a self confessed nerd and part time geek.
+  Hi, I'm Paul Gregory.
   <br /><br />
-  My overriding goal in life is to create hi-tech tools for non-hi-tech people. 
-  I thrive on building software that unlocks the creative potential of others, 
-  and am always on the lookout for the next big thing that brings technology to
-  a new audience in a way that hasn't been achieved before.
+  I'm a lifelong fanatic of all things technology, specialising in software
+  engineering and architecture. I have a long career in this field, working
+  with many great organisations, covering topics as diverse as film and TV
+  special effects, mobile gaming, VR and insure-tech.
   <br /><br />
-  I enjoy everything to do with creative media and entertainement, from games to 
-  films and everything in-between. Working with creative teams most of my career
-  gives me an insight into the ways of working and enables me to understand the 
-  needs of the creative individual, digging under the superficial request to find
-  unique and innovative solutions.
+  I have a particular passion for the blend between creative media and 
+  technology, and thrive on providing new and innovative solutions to enable
+  and empower artistic people to create without boundaries.
   <br /><br />
-  I apply 30 years of experience in the software industry, working with some of
-  the most talented people in the field, to design, plan and implement with an
-  extremely high level of rigour and quality.
+  I apply 30+ years of experience in the software industry, from engineer to CTO, 
+  working with some of the most talented people in the field, to design, plan 
+  and implement with an extremely high level of rigour and quality.
 
 #####################################
 #############  Expertise  ############
 #####################################
 features-title: Expertise
-features-description: I can apply my software engineering experience to almost any software problem, but here are some examples of my specialisations.
+features-description: |+ 
+  I believe strongly in an "engineering first" approach to software development,
+  which means I consider every problem from a pure engineering perspective, agnostic 
+  to any language or framework considerations, planning only how to best solve the
+  problem at a high level. The result of this approach is that my expertise can be
+  applied to any situation, and language choice is just a tool not a constraint. The 
+  result of taking this approach to every situation means I have exposure to more than
+  40 different languages and development systems, and the ability to choose the right
+  tool for the job each time. 
 
 #
 # Features
@@ -148,20 +155,39 @@ features-description: I can apply my software engineering experience to almost a
 features:
 
 # Feature
-- title: Digital Audio
-  description: Building the future of collaborative music, right here on the web. Bringing musicians together in a digital age.
-  icon: pe-7s-music
+- title: Mobile App Development
+  description: |+
+    With expertise in both native, Swift/ObjectiveC and Java/Kotlin/C++, and cross platform
+    frameworks, Flutter, React Native, I can bring your mobile app ideas to life across both
+    Apple and Google platforms, and deliver a store ready solution.
+  icon: fa fa-amazon
 
 # Feature
 - title: Video Games 
-  description: From retro to next-gen, casual to hardcore; applying years of experience, from 8bit home computers to mobiles, to allow games designers to realise their dreams. 
-  icon: pe-7s-joy
+  description: |+
+    Having started my career in 1984 developing games for the 8bit home computers of the time
+    and working through the video game revolution on platforms such as pre-smart mobile phones, 
+    PC's, consoles and smartphones, I can bring a broad spectrum of experience and knowledge to
+    realising your gaming passion.
+  icon: fa fa-gamepad 
 
 # Feature
 - title: CGI & Visual Effects
-  description: Photo-realistic rendering, animation, procedural systems, generative systems, advanced physical simulation. 
-  icon: pe-7s-film
+  description: |+
+    I created the <a href="/pages/aqsis/">Aqsis</a> renderer as a personal project, recreating Pixar's 
+    legendary Renderman rendering system, which led to my contribution to the book
+    <a href="https://link.springer.com/book/10.1007/b138603"><b>Production Rendering : Design and Implementation</b></a>.
+    I can use this insight and deep level understanding of 3D graphics and animation, to power
+    your visual effects needs.
+  icon: fa fa-film
 
+# Feature
+- title: Web Applications
+  description: |+
+    I have many years full-stack development experience in the most popular frameworks and languages, 
+    VueJS, React, Angular, Django, Node, ASP.NET and many more, as well as enterprise level systems
+    design and management. I can bring this experience to bear on your web delivered project.
+  icon: fa fa-code
 
 #####################################
 ############  Portfolio  ############
@@ -320,9 +346,9 @@ contact-description:
 #############   Footer   ############
 #####################################
 footer-description: 
-footer-copyright-text: Indigo Beetle&trade;
+footer-copyright-text: Indigo Beetle
 footer-copyright-url: https://www.indigobeetle.co.uk
-footer-copyright-year: 2017
+footer-copyright-year: 2022
 
 gems:
   - jekyll-sitemap

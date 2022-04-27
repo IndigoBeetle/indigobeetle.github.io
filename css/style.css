@@ -3873,7 +3873,7 @@ section.features-section .feature .icon .circle .circle {
   background: #bdc3c7;
 }
 
-section.features-section .feature .icon .circle .circle i {
+section.features-section .feature .icon .circle .circle span {
   font-size: 3rem;
   color: #2c3e50;
   -webkit-transition: all 300ms ease-in-out;
@@ -3903,7 +3903,7 @@ section.features-section .feature:hover .icon .circle .circle {
   background: #d177ff;
 }
 
-section.features-section .feature:hover .icon .circle .circle i {
+section.features-section .feature:hover .icon .circle .circle span {
   color: #fff;
 }
 

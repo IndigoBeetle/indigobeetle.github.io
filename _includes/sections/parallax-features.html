@@ -1,5 +1,5 @@
 <!-- Parallax Section -->
-<section class="site-section parallax-features-section parallax" id="parallax-features" data-scrollax-parent="true">
+<section class="site-section parallax-features-section parallax" id="expertise" data-scrollax-parent="true">
 
   <!-- Parallax Image -->
   <div class="cover" data-scrollax="properties: { 'translateY': '48%' }">
@@ -13,13 +13,13 @@
 
       <!-- Section Header -->
       <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
-        <h2>{{ site.core-title }}</h2>
+        <h2>{{ site.features-title }}</h2>
         <hr class="normal">
       </header>
 
       <!-- Section Content -->
       <div class="col-md-8 col-md-push-2 col-sm-12 section-content">
-        <p>{{ site.core-description }}</p>
+        <p>{{ site.features-description }}</p>
       </div>
 
     </div>
@@ -29,7 +29,7 @@
 
       <div class="col-md-4 col-sm-6 text-right">
 
-        {% for feature in site.core-features-left %}
+        {% for feature in site.features-left %}
 
         <div class="feature">
           <div class="text-wrap">
@@ -47,13 +47,12 @@
 
       </div>
 
-      <div class="col-md-4 phone">
-        <img src="{{ site.baseurl }}/images/phone.png" alt="Phone Image" />
+      <div class="col-md-4">
       </div>
 
       <div class="col-md-4 col-sm-6 text-left">
 
-        {% for feature in site.core-features-right %}
+        {% for feature in site.features-right %}
 
         <div class="feature">
           <div class="text-wrap">

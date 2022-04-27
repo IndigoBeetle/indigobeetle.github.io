@@ -85,11 +85,9 @@ about-widget:
   author-tagline: Software Specialist
   author-info: Driven by the desire to empower the worlds' Right Brains through technology.
   author-social-links:
-    #youtube: '#'
-    #pinterest: '#'
     facebook: 'https://www.facebook.com/pcgregory'
     twitter: 'https://twitter.com/pcgregory'
-    #google-plus: '#'
+    linkedin: 'https://www.linkedin.com/in/pcgregory/'
 
 # Google Map JS api
 # This is my api for this template

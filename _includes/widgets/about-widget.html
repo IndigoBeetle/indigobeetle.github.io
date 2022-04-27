@@ -3,7 +3,6 @@
 
   <!-- Widget Header -->
   <header class="widget-header">
-    <h4 class="widget-title">About Me</h4>
   </header>
 
   <!-- Widget Content -->
@@ -28,6 +27,9 @@
             {% endif %}
             {% if site.about-widget.author-social-links.google-plus %}
             <li><a href="{{ site.about-widget.author-social-links.google-plus }}" target="_blank"><span class="fi flaticon-google-plus"><span class="hidden-text">Google+</span></span></a></li>
+            {% endif %}
+            {% if site.about-widget.author-social-links.linkedin %}
+            <li><a href="{{ site.about-widget.author-social-links.linkedin }}" target="_blank"><span class="fi flaticon-linkedin"><span class="hidden-text">LinkedIn</span></span></a></li>
             {% endif %}
           </ul>
         </div>

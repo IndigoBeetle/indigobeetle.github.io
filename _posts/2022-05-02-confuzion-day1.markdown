@@ -41,7 +41,7 @@ time spent on graphics, while making it easier to update those graphics
 later in the cycle, the fewer images there are, the quicker it is to redraw
 or improve them, especially with my limited artistic skill.
 
-Each tile is defined by it's trace layers and background image. As things
+Each tile is defined by its trace layers and background image. As things
 progress, the tile definition will also include data used to move the spark
 along the traces as it enters each tile, but that's still to come.
 

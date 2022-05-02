@@ -1,72 +1,122 @@
----
-layout: page
----
+<!DOCTYPE html >
+<html lang="{{ site.lang }}">
 
-<!-- Blog Article -->
-<div class="post-full">
-  <article class="blog-article blog-single-page clearfix">
+  {% include head.html %}
 
-    <!-- Article Header -->
-    <header class="article-header">
-      <div class="img-wrap">
-        <img src="{{ site.baseurl }}/images/blog/{{ page.image }}" alt="Article Blog Image">
-      </div>
-      <div class="article-title">
-        <h3 class="title">{{ page.title }}</h3>
-        <h4 class="category">{{ page.categories | first }}</h4>
-      </div>
-    </header>
+  <body>
 
-    <!-- Article Content -->
-    <div class="article-content">
-      {{ page.content }}
-    </div>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.9&appId=1636699406349952";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 
-    <!-- Article Tool Boxes -->
-    <div class="article-boxes">
+    <!-- Page Loader -->
+    <div id="page-loader" class="page-loader"><span class="load-icon"></span></div>
 
-      <!-- Tags Box -->
-      <div class="tags-article box">
-        <span class="title">Tags:</span>
-        <ul class="tag-cloud-box box-content">
-          {% assign tags_list = page.tags %}
-            {% if tags_list.first[0] == null %}
-              {% for tag in tags_list %}
-                <li><a href="#{{ tag }}">{{ tag }}</a></li>
-              {% endfor %}
-            {% else %}
-              {% for tag in tags_list %}
-                <li><a href="#{{ tag[0] }}">{{ tag[0] }}</a></li>
-              {% endfor %}
-            {% endif %}
-          {% assign tags_list = nil %}
-        </ul>
-      </div>
+    {% include header-page.html %}
 
-      <!-- Share Article Links Box -->
-      <div class="share-article box clearfix">
-        <span class="title">Share:</span>
-        <div class="social-icons box-content">
-          <ul class="icons global-text-color-icons">
-            <li>
-              <div class="fb-share-button" data-href="{{ site.url }}{{ page.url }}" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Share</a></div>
-              <!--<a href="https://www.facebook.com/sharer/sharer.php?u=&t=" target="_blank"><span class="fi flaticon-facebook"></span></a>-->
-            </li>
-            <li>
-              <!--<a href="https://twitter.com/intent/tweet?source=&text=:%20" target="_blank"><span class="fi flaticon-twitter"></span></a>-->
-              <a class="twitter-share-button" href="https://twitter.com/intent/tweet" data-size="large">Tweet</a>
-            </li>
-            <!--<li>
-              <a href="https://plus.google.com/share?url=" target="_blank"><span class="fi flaticon-google-plus"></span></a>
-            </li>-->
-            <!--<li>
-              <a href="http://pinterest.com/pin/create/button/?url=&description=" target="_blank"><span class="fi flaticon-pinterest"></span></a>
-            </li>-->
-          </ul>
+    <!-- Page Section -->
+    <section class="site-section blog-section page-layout" id="start">
+      <div class="container">
+
+        <!-- Page Layout -->
+        <div class="row">
+
+          <!-- Sidebar -->
+          <div class="col-md-4 hidden-xs hidden-sm">
+            {% include post_sidebar.html %}
+          </div>
+
+          <!-- Content -->
+          <div class="col-md-8 blog-articles-container">
+
+            <article class="blog-article">
+              <!-- Blog Article -->
+              <div class="post-full">
+                <article class="blog-article blog-single-page clearfix">
+
+                  <!-- Article Header -->
+                  <header class="article-header">
+                    <div class="img-wrap">
+                      <img src="{{ site.baseurl }}/images/blog/{{ page.image }}" alt="Article Blog Image">
+                    </div>
+                    <div class="article-title">
+                      <h3 class="title">{{ page.title }}</h3>
+                      <h4 class="category">{{ page.categories | first }}</h4>
+                    </div>
+                  </header>
+
+                  <!-- Article Content -->
+                  <div class="article-content">
+                    {{ page.content }}
+                  </div>
+
+                  <!-- Article Tool Boxes -->
+                  <div class="article-boxes">
+
+                    <!-- Tags Box -->
+                    <div class="tags-article box">
+                      <span class="title">Tags:</span>
+                      <ul class="tag-cloud-box box-content">
+                        {% assign tags_list = page.tags %}
+                          {% if tags_list.first[0] == null %}
+                            {% for tag in tags_list %}
+                              <li><a href="#{{ tag }}">{{ tag }}</a></li>
+                            {% endfor %}
+                          {% else %}
+                            {% for tag in tags_list %}
+                              <li><a href="#{{ tag[0] }}">{{ tag[0] }}</a></li>
+                            {% endfor %}
+                          {% endif %}
+                        {% assign tags_list = nil %}
+                      </ul>
+                    </div>
+
+                    <!-- Share Article Links Box -->
+                    <div class="share-article box clearfix">
+                      <span class="title">Share:</span>
+                      <div class="social-icons box-content">
+                        <ul class="icons global-text-color-icons">
+                          <li>
+                            <div class="fb-share-button" data-href="{{ site.url }}{{ page.url }}" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Share</a></div>
+                            <!--<a href="https://www.facebook.com/sharer/sharer.php?u=&t=" target="_blank"><span class="fi flaticon-facebook"></span></a>-->
+                          </li>
+                          <li>
+                            <!--<a href="https://twitter.com/intent/tweet?source=&text=:%20" target="_blank"><span class="fi flaticon-twitter"></span></a>-->
+                            <a class="twitter-share-button" href="https://twitter.com/intent/tweet" data-size="large">Tweet</a>
+                          </li>
+                          <!--<li>
+                            <a href="https://plus.google.com/share?url=" target="_blank"><span class="fi flaticon-google-plus"></span></a>
+                          </li>-->
+                          <!--<li>
+                            <a href="http://pinterest.com/pin/create/button/?url=&description=" target="_blank"><span class="fi flaticon-pinterest"></span></a>
+                          </li>-->
+                        </ul>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </article>
+              </div>
+
+            </article>
+
+          </div>
+
         </div>
+
       </div>
+    </section>
 
-    </div>
+    {% include footer.html %}
 
-  </article>
-</div>
+    {% include scripts.html %}
+
+  </body>
+
+</html>

@@ -18,9 +18,17 @@ history, and is (I hope) doable in the timeframe, which should help me to
 get some library code and assets in place that will make some of the harder
 games to come a little more feasible.
 
+Incentive Software were my first employer, back in 1986, straight out of 
+college. I still remember spotting the card in the Basingstoke job centre, yes
+we used the job centre back then, and immediately connecting the name to
+Confuzion, a game I'd purchased and played for hours just a year earlier on
+my rubber keyed Spectrum 48k (upgraded from 16k). Riding out to Tadley on my
+Suzuki GS125 for the interview. There will be more stories related to that 
+part of my career during this challenge year.
+
 Confuzion is a fun puzzle game by Brendan Kelly, Paul Shirley and Ian Andrew.
 A fun take on the classic sliding puzzle game, instead of sliding the pieces
-to recreate a static image, there is a spark travelling on the traces of the
+to recreate a static image, a spark travels on the traces of the
 board pieces, your job is to move the tiles into a configuration that takes
 the spark to its goal of igniting a bomb or bombs surrounding the board. Set 
 over 64 levels, with increasing difficulty.

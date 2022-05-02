@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "RetroRemake Challange - Month 1 - Day 1"
+title: "RetroRemake Challenge : Month 1 Day 1"
 description: Day 1 of the first remake, Confuzion by Incentive Software.
 tagline: "Confuzion"
 date: 2022-05-02 18:54
@@ -12,11 +12,12 @@ excerpt: |
     rendering options.
 ---
 
-Ok, I've committed to this now, no going back. I have chosen a game that both
-holds a lot of memories for me, has a significant place in my personal career
-history, and is (I hope) doable in the timeframe, which should help me to 
-get some library code and assets in place that will make some of the harder
-games to come a little more feasible.
+
+Ok, I've committed to [this](/retroremakes/2022/04/22/retroremakes.html) now,
+no going back. I have chosen a game that both holds a lot of memories for me,
+has a significant place in my personal career history, and is (I hope) doable
+in the timeframe, which should help me to get some library code and assets in
+place that will make some of the harder games to come a little more feasible.
 
 Incentive Software were my first employer, back in 1986, straight out of 
 college. I still remember spotting the card in the Basingstoke job centre, yes

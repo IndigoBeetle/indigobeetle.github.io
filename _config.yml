@@ -268,6 +268,14 @@ portfolio:
   thumb: tumbly-thumb.png
   description: A casual puzzler for iOS and Android
   url: '/pages/tumbly.html'
+    
+# Portfolio Item
+- title: Confuzion Remake 
+  categories: [Games]
+  thumb: confuzion_mix.png
+  description: A remake of the classic 1985 Confuzion from Incentive Software.
+  url: '/pages/confuzion.html'
+
 
 #####################################
 ########### Testimonials ############

@@ -1,5 +1,4 @@
-/**
- *
+/*
  *  Theme Name: Sera - OnePage Multi-Purpose Theme
  *  Theme URI: http://gleesik.ro/
  *  Author: Gleesik
@@ -4432,6 +4431,10 @@ section.blog-section.page-layout article.blog-article ol {
   list-style-type: decimal;
 }
 
+section.blog-section.page-layout article.blog-article ol li {
+  padding-bottom: 0.5em;
+}
+
 section.blog-section.page-layout article.blog-article h2 {
   margin-bottom: 1em;
 }
@@ -5057,4 +5060,8 @@ footer.site-footer .footer-copyright .footer-text {
 
 #freelancer-hireme img {
   background-color: white;
+}
+
+code {
+  font-family: monospace;
 }

@@ -5065,3 +5065,7 @@ footer.site-footer .footer-copyright .footer-text {
 code {
   font-family: monospace;
 }
+
+div.highlighter-rouge {
+  margin-bottom: 1em;
+}

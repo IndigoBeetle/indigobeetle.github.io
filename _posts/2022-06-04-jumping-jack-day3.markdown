@@ -13,7 +13,7 @@ excerpt: |
 ---
 
 As mentioned in the [previous]({% post_url 2022-06-02-jumping-jack-day1 %}) post 
-on this remake, once the rendering of the platforms and gaps were dealth with,
+on this remake, once the rendering of the platforms and gaps were dealt with,
 the remaining part of the basic mechanic was the collision detection and
 response. 
 
@@ -37,7 +37,7 @@ close to that platform, it has no effect whatsoever, so is perfectly reasonable.
 Upon testing, this extremely simple cheat seems to work perfectly well. At the
 moment, the test for whether the player is in line doesn't even take into 
 account the size of the player, it simply tests whether the centre-line of the
-player is in-line, and this seems to be adequate, simplifying even furter.
+player is in-line, and this seems to be adequate, simplifying even further.
 
 It needs more testing, but initial play seems to imply that this will work well.
 

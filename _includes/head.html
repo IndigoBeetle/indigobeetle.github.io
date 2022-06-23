@@ -46,4 +46,13 @@
 
     return t;
   }(document, "script", "twitter-wjs"));</script>
+
+{% if page.image %}
+  <meta property="og:image" content="{{ site.url }}/{{ page.image }}" />
+{% endif %}
+
+{% if page.excerpt %}
+  <meta property="og:description" content="{{ page.excerpt }}" />
+{% endif %}
+
 </head>

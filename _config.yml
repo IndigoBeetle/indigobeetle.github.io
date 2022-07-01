@@ -276,6 +276,12 @@ portfolio:
   description: A remake of the classic 1985 Confuzion from Incentive Software.
   url: '/pages/confuzion.html'
 
+# Portfolio Item
+- title: Jumping Jack 
+  categories: [Games]
+  thumb: jumpingjack-remake.png
+  description: A remake of the classic 1983 Jumping Jack from Imagine Software.
+  url: '/pages/jumpingjack-remake.html'
 
 #####################################
 ########### Testimonials ############

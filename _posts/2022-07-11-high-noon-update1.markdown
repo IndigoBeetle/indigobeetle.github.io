@@ -3,7 +3,7 @@ layout: post
 title: "RetroRemake Challenge : Month 3 Update 1"
 description: First update of the third remake, High Noon by Work Force.
 tagline: "High Noon"
-date: 2022-07-11 22:53
+date: 2022-07-11 22:53 +0100
 categories: [RetroRemakes]
 tags: [Programming, Software, Retro]
 image: high-noon-1.png

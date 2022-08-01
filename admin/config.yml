@@ -3,7 +3,7 @@ backend:
   repo: indigobeetle/indigobeetle.github.io
   branch: master
   site-domain: lucky-lokum-bcae29.netlify.com
-media_folder: "images"
+media_folder: "images/blog"
 site_url: https://www.indigobeetle.co.uk
 collections:
   - name: "blog"

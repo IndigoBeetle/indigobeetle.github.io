@@ -4,7 +4,7 @@ backend:
   branch: master
   site-domain: lucky-lokum-bcae29.netlify.com
 publish_mode: editorial_workflow
-media_folder: "images/uploads"
+media_folder: "images"
 collections:
   - name: "blog"
     label: "Blog"

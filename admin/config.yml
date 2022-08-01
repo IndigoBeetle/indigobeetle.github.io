@@ -2,6 +2,7 @@ backend:
   name: github
   repo: indigobeetle/indigobeetle.github.io
   branch: master
+  site-domain: lucky-lokum-bcae29.netlify.com
 publish_mode: editorial_workflow
 media_folder: "images/uploads"
 collections:

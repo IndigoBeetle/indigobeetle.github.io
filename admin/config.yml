@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: githug
+  repo: indigobeetle/indigobeetle.github.io
   branch: master
 publish_mode: editorial_workflow
 media_folder: "images/uploads"

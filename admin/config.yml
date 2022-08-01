@@ -1,5 +1,5 @@
 backend:
-  name: githug
+  name: github
   repo: indigobeetle/indigobeetle.github.io
   branch: master
 publish_mode: editorial_workflow

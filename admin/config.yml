@@ -12,7 +12,7 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     extension: "markdown"
-    media_folder: "images/blog"
+    media_folder: "{{media_folder}}/blog"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
@@ -27,7 +27,7 @@ collections:
     create: true
     slug: "{{slug}}"
     extension: "markdown"
-    media_folder: "images/portfolio"
+    media_folder: "{{media_folder}}/portfolio"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - {label: "Title", name: "title", widget: "string"}

@@ -2,7 +2,7 @@
 layout: page
 title: "FruitSpritzer"
 categories: [Games]
-thumb: fruit-thumb.png
+thumb: /images/portfolio/fruit-thumb.png
 description: A frantic fun take on the match 3 game
 ---
 

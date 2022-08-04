@@ -2,7 +2,7 @@
 layout: page
 title: "Aqsis"
 categories: [Graphics]
-thumb: aqsis-thumb.png
+thumb: /images/portfolio/aqsis-thumb.png
 description: An open source clone of Pixar's RenderMan renderer
 ---
 

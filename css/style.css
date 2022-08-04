@@ -3983,15 +3983,21 @@ section.portfolio-section .portfolio-grid .item {
           transform: scale(0.95);
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
+  height: 200px;
+  max-height: 200px;
 }
 
 section.portfolio-section .portfolio-grid .item .img-wrap {
   position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 section.portfolio-section .portfolio-grid .item .img-wrap img {
   width: 100%;
   display: block;
+  max-height: 100%;
+  object-fit: contain;
 }
 
 section.portfolio-section .portfolio-grid .item.visible {

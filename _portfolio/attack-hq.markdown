@@ -3,7 +3,7 @@ layout: page
 title: Attack HQ
 categories:
   - Games
-thumb: attack-thumb.png
+thumb: /images/portfolio/attack-thumb.png
 description: A game jam entry for the theme "Build/Rebuild", created in a week
 ---
 

@@ -2,7 +2,7 @@
 layout: page
 title: "Confuzion Remake"
 categories: [Games]
-thumb: confuzion_mix.png
+thumb: /images/portfolio/confuzion_mix.png
 description: A remake of the classic 1985 Confuzion from Incentive Software.
 ---
 

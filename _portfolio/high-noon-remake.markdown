@@ -8,7 +8,7 @@ description: A remake of the classic Spectrum game High Noon by Work Force, circ
 ---
 
 <figure>
-    <img src="/images/blog/screenshot1.png" width="100%" alt="Game Screenshot">
+    <img src="/images/portfolio/screenshot1.png" width="100%" alt="Game Screenshot">
     <figcaption>High Noon Remake</figcaption>
 </figure>
 <br/>

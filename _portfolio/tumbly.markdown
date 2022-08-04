@@ -1,6 +1,9 @@
 ---
 layout: page
 title: "Tumbly Rocks"
+categories: [Games]
+thumb: tumbly-thumb.png
+description: A casual puzzler for iOS and Android
 ---
 
 ![Tumbly Rocks](/images/portfolio/tumbly.png){:class="img-responsive"}

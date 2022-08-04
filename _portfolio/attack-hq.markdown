@@ -1,6 +1,9 @@
 ---
 layout: page
 title: "Attack HQ"
+categories: [Games]
+thumb: attack-thumb.png
+description: A game jam entry for the theme "Build/Rebuild", created in a week
 ---
 
 ![Attack HQ](/images/portfolio/attack.png){:class="img-responsive"}

@@ -192,96 +192,7 @@ features:
 #####################################
 portfolio-title: Portfolio
 portfolio-description: Some of the projects and products I've worked on, professionally or as hobby/side projects.
-
-#
-# Portfolio Grid
-#
-portfolio-categories: [Websites, Digital Audio, Games, Web Applications, Graphics]
-portfolio:
-
-# Portfolio Item
-- title: WeTracker
-  categories: [Digital Audio, Web Applications]
-  thumb: wetracker1-thumb.png
-  description: A tracker style music tool for the browser.
-  url: '/pages/wetracker.html'
-
-# Portfolio Item
-- title: Pico8 Shooter
-  categories: [Games]
-  thumb: pico8-shooter-thumb.png
-  description: A fun shooter on the constrained Pico8 virtual console
-  url: '/pages/pico8-shooter.html'
-
-# Portfolio Item
-- title: Fruit Spritzer 
-  categories: [Games]
-  thumb: fruit-thumb.png
-  description: A frantic fun take on the match 3 game
-  url: '/pages/fruitspritzer.html'
-
-# Portfolio Item
-- title: Children's Games 
-  categories: [Games]
-  thumb: mardyboys-thumb.png
-  description: A series of fun children's games created for a children's book author
-  url: '/pages/childrens-games.html'
-    
-# Portfolio Item
-- title: Jumping Jack 
-  categories: [Games]
-  thumb: jack-thumb.png
-  description: A game jam entry for the topic "growth", created in a week.
-  url: '/pages/jumpingjack.html'
-
-# Portfolio Item
-- title: Cact-Eye
-  categories: [Games]
-  thumb: cact-eye-thumb.png
-  description: A game jam entry for the theme "Out of Place Cacti", created in a week
-  url: '/pages/cact-eye.html'
-    
-# Portfolio Item
-- title: Tracker Radio 
-  categories: [Web Applications, Websites]
-  thumb: tracker-radio-thumb.png
-  description: A website to listen to the vast library of mod files at modland.com
-  url: '/pages/tracker-radio.html'
-    
-# Portfolio Item
-- title: Attack HQ
-  categories: [Games]
-  thumb: attack-thumb.png
-  description: A game jam entry for the theme "Build/Rebuild", created in a week
-  url: '/pages/attack-hq.html'
-
-# Portfolio Item
-- title: Aqsis 
-  categories: [Graphics]
-  thumb: aqsis-thumb.png
-  description: An open source clone of Pixar's RenderMan renderer
-  url: '/pages/aqsis.html'
-
-# Portfolio Item
-- title: Tumbly Rocks 
-  categories: [Games]
-  thumb: tumbly-thumb.png
-  description: A casual puzzler for iOS and Android
-  url: '/pages/tumbly.html'
-    
-# Portfolio Item
-- title: Confuzion Remake 
-  categories: [Games]
-  thumb: confuzion_mix.png
-  description: A remake of the classic 1985 Confuzion from Incentive Software.
-  url: '/pages/confuzion.html'
-
-# Portfolio Item
-- title: Jumping Jack 
-  categories: [Games]
-  thumb: jumpingjack-remake.png
-  description: A remake of the classic 1983 Jumping Jack from Imagine Software.
-  url: '/pages/jumpingjack-remake.html'
+  
 
 #####################################
 ########### Testimonials ############
@@ -364,3 +275,10 @@ footer-copyright-year: 2022
 
 gems:
   - jekyll-sitemap
+
+
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:name
+

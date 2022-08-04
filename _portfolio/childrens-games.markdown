@@ -1,6 +1,9 @@
 ---
 layout: page
 title: "Children's Games"
+categories: [Games]
+thumb: mardyboys-thumb.png
+description: A series of fun children's games created for a children's book author
 ---
 
 ![Children's Games](/images/portfolio/mardyboys.png){:class="img-responsive"}

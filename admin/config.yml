@@ -3,7 +3,7 @@ backend:
   repo: indigobeetle/indigobeetle.github.io
   branch: master
   site-domain: lucky-lokum-bcae29.netlify.com
-media_folder: "images/blog"
+media_folder: "images"
 site_url: https://www.indigobeetle.co.uk
 collections:
   - name: "blog"
@@ -12,6 +12,7 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     extension: "markdown"
+    media_folder: "images/blog"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
@@ -19,4 +20,18 @@ collections:
       - {label: "Featured Image", name: "image", widget: "image"}
       - {label: "Excerpt", name: "excerpt", widget: "string"}
       - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "portfolio"
+    label: "Portfolio"
+    folder: "_portfolio"
+    create: true
+    slug: "{{slug}}"
+    extension: "markdown"
+    media_folder: "images/portfolio"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Categories", name: "categories", widget: "list"}
+      - {label: "Thumbnail Image", name: "thumb", widget: "image"}
+      - {label: "Description", name: "description", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}

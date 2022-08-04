@@ -1,6 +1,9 @@
 ---
 layout: page
 title: "Pico8 Shooter"
+categories: [Games]
+thumb: pico8-shooter-thumb.png
+description: A fun shooter on the constrained Pico8 virtual console
 ---
 
 ![Pico8 Shooter](/images/portfolio/pico8-shooter.png){:class="img-responsive"}

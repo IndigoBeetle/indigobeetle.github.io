@@ -1,6 +1,9 @@
 ---
 layout: page
 title: "Aqsis"
+categories: [Graphics]
+thumb: aqsis-thumb.png
+description: An open source clone of Pixar's RenderMan renderer
 ---
 
 ![Aqsis](/images/portfolio/tugboat.jpeg){:class="img-responsive"}

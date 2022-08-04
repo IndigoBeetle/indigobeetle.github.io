@@ -1,6 +1,9 @@
 ---
 layout: page
 title: "WeTracker"
+categories: [Digital Audio, Web Applications]
+thumb: wetracker1-thumb.png
+description: A tracker style music tool for the browser.
 ---
 
 ![WeTracker](/images/portfolio/wetracker1.png){:class="img-responsive"}

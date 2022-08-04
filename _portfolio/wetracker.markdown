@@ -1,12 +1,19 @@
 ---
 layout: page
-title: "WeTracker"
-categories: [Digital Audio, Web Applications]
+title: WeTracker
+categories:
+  - Digital Audio
+  - Web Applications
 thumb: wetracker1-thumb.png
 description: A tracker style music tool for the browser.
 ---
+<figure>
+    <img src="/images/portfolio/wetracker1.png" width="100%" alt="WeTracker">
+    <figcaption>The WeTracker Interface</figcaption>
+</figure>
+<br/>
 
-![WeTracker](/images/portfolio/wetracker1.png){:class="img-responsive"}
+
 
 Initially starting as a fun experiment, WeTracker has grown into a fully
 featured music authoring tool based on the 'tracker' style tools of the early

@@ -1,14 +1,15 @@
 ---
 layout: page
-title: "Attack HQ"
-categories: [Games]
+title: Attack HQ
+categories:
+  - Games
 thumb: attack-thumb.png
 description: A game jam entry for the theme "Build/Rebuild", created in a week
 ---
 
 <figure>
     <img src="/images/portfolio/attack.png" width="100%" alt="Game Screenshot">
-    <figcaption>Attach HQ</figcaption>
+    <figcaption>Attack HQ</figcaption>
 </figure>
 <br/>
 

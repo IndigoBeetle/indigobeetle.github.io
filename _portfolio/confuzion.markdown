@@ -6,7 +6,11 @@ thumb: confuzion_mix.png
 description: A remake of the classic 1985 Confuzion from Incentive Software.
 ---
 
-![Confuzion Remake](/images/blog/confuzion_mix.png){:class="img-responsive"}
+<figure>
+    <img src="/images/blog/confuzion_mix.png" width="100%" alt="Game Screenshot">
+    <figcaption>Confuzion Remake</figcaption>
+</figure>
+<br/>
 
 Confuzion is a "Retro Remake" of a classic ZX Spectrum, Commodore64, AmstradCPC
 and BBC Micro game originally released by Incentive Software in 1985. I created

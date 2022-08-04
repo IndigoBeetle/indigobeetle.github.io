@@ -6,7 +6,11 @@ thumb: jumpingjack-remake.png
 description: A remake of the classic 1983 Jumping Jack from Imagine Software.
 ---
 
-![Jumping Jack Remake](/images/blog/jumpingjack-remake.png){:class="img-responsive"}
+<figure>
+    <img src="/images/blog/jumpingjack-remake.png" width="100%" alt="Game Screenshot">
+    <figcaption>Jumping Jack Remake</figcaption>
+</figure>
+<br/>
 
 Jumping Jack is a "Retro Remake" of a classic ZX Spectrum, game originally
 released by Imagine Software in 1983. I created it as part of my Sinclair ZX

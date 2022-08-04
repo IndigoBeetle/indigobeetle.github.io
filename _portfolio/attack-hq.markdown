@@ -6,7 +6,11 @@ thumb: attack-thumb.png
 description: A game jam entry for the theme "Build/Rebuild", created in a week
 ---
 
-![Attack HQ](/images/portfolio/attack.png){:class="img-responsive"}
+<figure>
+    <img src="/images/portfolio/attack.png" width="100%" alt="Game Screenshot">
+    <figcaption>Attach HQ</figcaption>
+</figure>
+<br/>
 
 Attack HQ was a fun distraction for a week, and an opportunity to learn a new
 game development tool that I'd never seen before starting this project,

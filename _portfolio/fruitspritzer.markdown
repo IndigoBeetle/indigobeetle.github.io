@@ -6,7 +6,11 @@ thumb: fruit-thumb.png
 description: A frantic fun take on the match 3 game
 ---
 
-![FruitSpritzer](/images/portfolio/fruit.png){:class="img-responsive"}
+<figure>
+    <img src="/images/portfolio/fruit.png" width="100%" alt="Game Screenshot">
+    <figcaption>FruitSpritzer</figcaption>
+</figure>
+<br/>
 
 <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/fZRaFOUGMgE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 

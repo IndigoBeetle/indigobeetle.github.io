@@ -7,6 +7,7 @@ categories:
 thumb: wetracker1-thumb.png
 description: A tracker style music tool for the browser.
 ---
+
 <figure>
     <img src="/images/portfolio/wetracker1.png" width="100%" alt="WeTracker">
     <figcaption>The WeTracker Interface</figcaption>

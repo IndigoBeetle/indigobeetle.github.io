@@ -6,8 +6,11 @@ thumb: aqsis-thumb.png
 description: An open source clone of Pixar's RenderMan renderer
 ---
 
-![Aqsis](/images/portfolio/tugboat.jpeg){:class="img-responsive"}
-Image copyright (c) 2006 Vikram K. Mulligan.
+<figure>
+    <img src="/images/portfolio/tugboat.jpeg" width="100%" alt="Aqsis">
+    <figcaption>Image copyright (c) 2006 Vikram K. Mulligan.</figcaption>
+</figure>
+<br/>
 
 Aqsis started many years ago as a means to itch a scratch I had. I was
 fascinated by the concept of programmable shaders in CGI, in particular Pixar's

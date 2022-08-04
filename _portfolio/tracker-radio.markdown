@@ -6,7 +6,11 @@ thumb: tracker-radio-thumb.png
 description: A website to listen to the vast library of mod files at modland.com
 ---
 
-![Tracker Radio](/images/portfolio/tracker-radio.png){:class="img-responsive"}
+<figure>
+    <img src="/images/portfolio/tracker-radio.png" width="100%" alt="Game Screenshot">
+    <figcaption>Tracker Radio</figcaption>
+</figure>
+<br/>
 
 During my work on [WeTracker](/pages/wetracker.html), I realised that there is
 a wealth of, largely undiscovered, electronic music out there from the

@@ -6,7 +6,11 @@ thumb: tumbly-thumb.png
 description: A casual puzzler for iOS and Android
 ---
 
-![Tumbly Rocks](/images/portfolio/tumbly.png){:class="img-responsive"}
+<figure>
+    <img src="/images/portfolio/tumbly.png" width="100%" alt="Game Screenshot">
+    <figcaption>Tumbly Rocks</figcaption>
+</figure>
+<br/>
 
 <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/R-dNjCnR9O8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 

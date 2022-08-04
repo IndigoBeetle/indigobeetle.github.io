@@ -6,7 +6,11 @@ thumb: pico8-shooter-thumb.png
 description: A fun shooter on the constrained Pico8 virtual console
 ---
 
-![Pico8 Shooter](/images/portfolio/pico8-shooter.png){:class="img-responsive"}
+<figure>
+    <img src="/images/portfolio/pico8-shooter.png" width="100%" alt="Game Screenshot">
+    <figcaption>Pico8 Shooter</figcaption>
+</figure>
+<br/>
 
 This SHMUP was created as a personal challenge to myself when I learned about
 the great little project [Pico8](https://www.lexaloffle.com/pico-8.php), a

@@ -6,7 +6,7 @@ tagline: ""
 date: 2018-03-18 21:32
 categories: [Infrastructure]
 tags: [Programming, Games, DevOps]
-image: images/blog/img-07.jpg
+image: /images/blog/img-07.jpg
 excerpt: |
   With the current trend towards acquisition of mBaaS companies, should you
   be putting the future of your development and apps in the hands of these

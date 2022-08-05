@@ -6,7 +6,7 @@ tagline: "The Future of Software"
 date: 2017-05-27 12:50
 categories: [Development]
 tags: [Programming, Software, Design, WebApps]
-image: images/blog/browsers-1273344_1280.png
+image: /images/blog/browsers-1273344_1280.png
 excerpt: |
   With more and more high power API's coming to the browser, and the increasing demand for rapidly accessible, specialised applications, are we seeing the death of native desktop based application installs?
 ---

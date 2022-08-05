@@ -6,7 +6,7 @@ tagline: "Confuzion"
 date: 2022-05-07 14:59
 categories: [RetroRemakes]
 tags: [Programming, Software, Retro]
-image: images/blog/confuzion-d7.png
+image: /images/blog/confuzion-d7.png
 excerpt: |
     Adding some polish and preparing behind the scenes changes to support 
     multiple levels and proper game flow.

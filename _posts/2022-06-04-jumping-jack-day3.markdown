@@ -6,7 +6,7 @@ tagline: "Jumping Jack"
 date: 2022-06-02 12:08
 categories: [RetroRemakes]
 tags: [Programming, Software, Retro]
-image: images/blog/jumping_jack_collision.png
+image: /images/blog/jumping_jack_collision.png
 excerpt: |
     Implementation of the collision handling system, allowing the player to
     jump/fall through the gaps, while keeping the collision shapes simple.

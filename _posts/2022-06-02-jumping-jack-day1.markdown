@@ -6,7 +6,7 @@ tagline: "Jumping Jack"
 date: 2022-06-02 12:08
 categories: [RetroRemakes]
 tags: [Programming, Software, Retro]
-image: images/blog/jumping_jack_d1.png
+image: /images/blog/jumping_jack_d1.png
 excerpt: |
     Building out the basic mechanic, trying out some rendering and collision
     techniques to find the easiest and most appropriate.

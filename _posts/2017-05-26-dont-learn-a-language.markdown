@@ -6,7 +6,7 @@ tagline: "Career Choices"
 date: 2017-05-26 15:53
 categories: [Programming]
 tags: [Programming, Learning, Software, Design]
-image: images/blog/img-03.jpg
+image: /images/blog/img-03.jpg
 excerpt: |
   I'm occassionally asked "What is the best language for me to learn?", my response, "Don't learn a language, learn to program!"
 ---

@@ -6,7 +6,7 @@ tagline: ""
 date: 2020-07-05 15:14
 categories: [Giselle2]
 tags: [Programming, Procedural, Project, Giselle2, Architecture]
-image: images/blog/road-start-beginning-design.jpg
+image: /images/blog/road-start-beginning-design.jpg
 excerpt: |
   After some major cleanup work on the original Giselle2 source code to
   clean up external dependencies, I've been working on simplifying the underlying architecture to provide a generic but powerful core that can then be built up into a complete feature set.

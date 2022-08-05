@@ -6,7 +6,7 @@ tagline: ""
 date: 2017-08-14 11:30
 categories: [Programming]
 tags: [Programming, Games, Learning]
-image: images/blog/img-06.jpg
+image: /images/blog/img-06.jpg
 excerpt: |
   Why you shouldn't throw out those old laptops too quickly. The value of
   developing on older hardware.

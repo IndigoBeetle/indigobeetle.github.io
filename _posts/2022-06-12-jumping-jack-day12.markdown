@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "RetroRemake Challenge : Month 2 Day 12"
+title: "RetroRemakes Challenge : Month 2 Day 12"
 description: Day 12 of the second remake, Jumping Jack by Imagine Software.
 tagline: "Jumping Jack"
 date: 2022-06-02 12:08

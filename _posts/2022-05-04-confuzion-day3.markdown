@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "RetroRemake Challenge : Month 1 Day 3"
+title: "RetroRemakes Challenge : Month 1 Day 3"
 description: Day 3 of the first remake, Confuzion by Incentive Software.
 tagline: "Confuzion"
 date: 2022-05-04 10:41

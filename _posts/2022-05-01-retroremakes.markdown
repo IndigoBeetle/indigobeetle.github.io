@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "RetroRemake Challenge"
+title: "RetroRemakes Challenge"
 description: Remake 12 Classic Spectrum Games in 12 Months
 tagline: "RetroRemakes"
 date: 2022-04-22 19:22

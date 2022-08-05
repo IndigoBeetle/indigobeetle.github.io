@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "RetroRemake Challenge : Month 3 Update 2"
+title: "RetroRemakes Challenge : Month 3 Update 2"
 description: Implementing a simple NPC AI.
 tagline: "High Noon"
 date: 2022-07-13 15:30 +0100

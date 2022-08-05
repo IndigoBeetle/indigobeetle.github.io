@@ -7,6 +7,7 @@ excerpt: Challenge kick off and getting the map data into Godot.
 tags:
   - RetroRemakes
   - Games
+categories: [RetroRemakes]
 ---
 Going back to 2D for the next challenge, [Splat!](https://spectrumcomputing.co.uk/entry/4767/ZX-Spectrum/Splat) 
 by Incentive Software, circa 1983 (seems a lot happened in 1983 on the Spectrum!).

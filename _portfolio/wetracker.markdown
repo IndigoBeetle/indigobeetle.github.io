@@ -4,7 +4,7 @@ title: WeTracker
 categories:
   - Digital Audio
   - Web Applications
-thumb: /images/portfolio/wetracker1-thumb.png
+image: /images/portfolio/wetracker1-thumb.png
 description: A tracker style music tool for the browser.
 ---
 

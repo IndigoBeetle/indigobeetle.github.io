@@ -2,7 +2,7 @@
 layout: page
 title: "Tracker Radio"
 categories: [Web Applications, Websites]
-thumb: /images/portfolio/tracker-radio-thumb.png
+image: /images/portfolio/tracker-radio-thumb.png
 description: A website to listen to the vast library of mod files at modland.com
 ---
 

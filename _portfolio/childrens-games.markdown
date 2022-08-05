@@ -2,7 +2,7 @@
 layout: page
 title: "Children's Games"
 categories: [Games]
-thumb: /images/portfolio/mardyboys-thumb.png
+image: /images/portfolio/mardyboys-thumb.png
 description: A series of fun children's games created for a children's book author
 ---
 

@@ -2,7 +2,7 @@
 layout: page
 title: "Jumping Jack Remake"
 categories: [Games]
-thumb: /images/portfolio/jumpingjack-remake.png
+image: /images/portfolio/jumpingjack-remake.png
 description: A remake of the classic 1983 Jumping Jack from Imagine Software.
 ---
 

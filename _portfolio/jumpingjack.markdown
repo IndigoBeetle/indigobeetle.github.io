@@ -2,7 +2,7 @@
 layout: page
 title: "Jumping Jack"
 categories: [Games]
-thumb: /images/portfolio/jack-thumb.png
+image: /images/portfolio/jack-thumb.png
 description: A game jam entry for the topic "growth", created in a week.
 ---
 

@@ -2,7 +2,7 @@
 layout: page
 title: "Tumbly Rocks"
 categories: [Games]
-thumb: /images/portfolio/tumbly-thumb.png
+image: /images/portfolio/tumbly-thumb.png
 description: A casual puzzler for iOS and Android
 ---
 

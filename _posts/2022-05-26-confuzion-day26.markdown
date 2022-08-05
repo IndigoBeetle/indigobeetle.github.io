@@ -6,7 +6,7 @@ tagline: "Confuzion"
 date: 2022-05-26 23:48
 categories: [RetroRemakes]
 tags: [Programming, Software, Retro]
-image: confuzion-d26.png
+image: images/blog/confuzion-d26.png
 excerpt: |
     On the final stretch now, music and sounds are mostly in, graphics
     are all but done, just on the last bit of trying to match the gameplay

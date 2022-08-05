@@ -6,7 +6,7 @@ tagline: "Confuzion"
 date: 2022-05-04 10:41
 categories: [RetroRemakes]
 tags: [Programming, Software, Retro]
-image: confuzion-spark.jpg
+image: images/blog/confuzion-spark.jpg
 excerpt: |
     Getting sparks to work and travel the board as tiles move, following
     the tracks on each tile independently.

@@ -6,7 +6,7 @@ tagline: "High Noon"
 date: 2022-07-13 15:30 +0100
 categories: [RetroRemakes]
 tags: [Programming, Software, Retro]
-image: high-noon-1.png
+image: images/blog/high-noon-1.png
 excerpt: |
     Using behavior trees to implement a very basic computer
     controller player AI.

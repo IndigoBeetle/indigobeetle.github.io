@@ -6,7 +6,7 @@ tagline: "Just for Fun"
 date: 2017-07-16 11:00
 categories: [GameDev]
 tags: [Programming, Games, Learning]
-image: img-05.jpg
+image: images/blog/img-05.jpg
 excerpt: |
   Never underestimate the importance of doing something you love, simply because
   you enjoy it, and for no other reason.<br /><br />

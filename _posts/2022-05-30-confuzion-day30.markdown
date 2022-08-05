@@ -6,7 +6,7 @@ tagline: "Confuzion"
 date: 2022-05-30 16:20
 categories: [RetroRemakes]
 tags: [Programming, Software, Retro]
-image: confuzion_mix.png
+image: images/blog/confuzion_mix.png
 excerpt: |
     Released, one day ahead of the deadline, and I haven't had as much
     fun as this in a long time.

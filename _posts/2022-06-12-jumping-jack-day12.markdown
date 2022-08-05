@@ -6,7 +6,7 @@ tagline: "Jumping Jack"
 date: 2022-06-02 12:08
 categories: [RetroRemakes]
 tags: [Programming, Software, Retro]
-image: jumping_jack_scroll.png
+image: images/blog/jumping_jack_scroll.png
 excerpt: |
     Implemented the poem/rhyme that gets revealed as you progress in the game,
     as well as level support and enemies.

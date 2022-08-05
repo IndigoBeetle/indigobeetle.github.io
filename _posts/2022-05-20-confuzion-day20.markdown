@@ -6,7 +6,7 @@ tagline: "Confuzion"
 date: 2022-05-20 14:58
 categories: [RetroRemakes]
 tags: [Programming, Software, Retro]
-image: confuzion-d20.jpg
+image: images/blog/confuzion-d20.jpg
 excerpt: |
     Lots of changes, mostly refactoring the spark and tile logic to better
     compartmentalise the code and make it reusable for the water droplets.

@@ -6,7 +6,7 @@ tagline: "Confuzion"
 date: 2022-05-12 23:04
 categories: [RetroRemakes]
 tags: [Programming, Software, Retro]
-image: confuzion-d12.png
+image: images/blog/confuzion-d12.png
 excerpt: |
     Graphical improvements, lots of flow changes and polish, but most important
     of all, a level editor. Not planned, but the math supported it and it was

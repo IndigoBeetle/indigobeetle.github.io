@@ -6,7 +6,7 @@ tagline: ""
 date: 2020-06-15 10:58
 categories: [Giselle2]
 tags: [Programming, Procedural, Project, Giselle2]
-image: giselle2.png
+image: images/blog/giselle2.png
 excerpt: |
   I have been looking for a project to work on during lockdown, and in general,
   to keep my skills up, and to offer me a challenge alongside my day job. Decided

@@ -6,7 +6,7 @@ tagline: "Confuzion"
 date: 2022-05-02 18:54
 categories: [RetroRemakes]
 tags: [Programming, Software, Retro]
-image: confuzion.png
+image: images/blog/confuzion.png
 excerpt: |
     Building the foundation, basic components and experimenting with tile
     rendering options.

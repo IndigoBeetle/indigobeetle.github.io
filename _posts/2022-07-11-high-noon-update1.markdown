@@ -6,7 +6,7 @@ tagline: "High Noon"
 date: 2022-07-11 22:53 +0100
 categories: [RetroRemakes]
 tags: [Programming, Software, Retro]
-image: high-noon-1.png
+image: images/blog/high-noon-1.png
 excerpt: |
     Taking an incredibly simple arcade classic into 3D just to make it
     more interesting, while retaining the original feel.

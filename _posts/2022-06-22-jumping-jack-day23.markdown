@@ -6,7 +6,7 @@ tagline: "Jumping Jack"
 date: 2022-06-23 13:53
 categories: [RetroRemakes]
 tags: [Programming, Software, Retro]
-image: jumping_jack_hazards1.png
+image: images/blog/jumping_jack_hazards1.png
 excerpt: |
     How I create graphics assets for the game, given my limited artistic
     ability.

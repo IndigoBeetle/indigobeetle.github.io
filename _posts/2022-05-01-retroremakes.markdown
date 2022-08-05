@@ -6,7 +6,7 @@ tagline: "RetroRemakes"
 date: 2022-04-22 19:22
 categories: [RetroRemakes]
 tags: [Programming, Software, Retro]
-image: 640px-ZXSpectrum48k.jpeg
+image: images/blog/640px-ZXSpectrum48k.jpeg
 excerpt: |
     A challenge, remake 12 classic ZX Spectrum games in 12 months, in honour of the
     40th anniversary of the little machine that could.

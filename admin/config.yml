@@ -4,6 +4,7 @@ backend:
   branch: master
   site-domain: lucky-lokum-bcae29.netlify.com
 media_folder: "images"
+publish_mode: editorial_workflow
 site_url: https://www.indigobeetle.co.uk
 collections:
   - name: "blog"

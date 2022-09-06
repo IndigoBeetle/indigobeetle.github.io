@@ -13,7 +13,7 @@ categories:
 ---
 Having pushed my luck on the last one, Splat, delivering with literally less than 2 minutes to spare, I've decided to shuffle the remaining months around a bit to give me some respite. The next one was going to be a very challenging remake, it's not been removed, just pushed to a later date when I hopefully will be less time-challenged.
 
-So, jumping up the schedule this month is a classic Speccy game, Deathchase by MicroMega, released in 1983 (again!). Lost a lot of time on this one back in the day, great fun, really challenging and quite an achievement for the little old Speccy, good pace, "3D" graphics, of a sort, and fun action gameplay. 
+So, jumping up the schedule this month is a classic Speccy game, [Deathchase](https://spectrumcomputing.co.uk/entry/1303/ZX-Spectrum/Deathchase) by MicroMega, released in 1983 (again!). Lost a lot of time on this one back in the day, great fun, really challenging and quite an achievement for the little old Speccy, good pace, "3D" graphics, of a sort, and fun action gameplay. 
 
 Not quite sure how I'm going to tackle this one, true to the original semi-3D, or full 3D, I'll get into that over the next couple of days. I'm hoping the simple gameplay will make for a more relaxed month, with less pressure.
 

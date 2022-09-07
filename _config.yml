@@ -1,284 +1,165 @@
-#
-# Sera - OnePage Jekyll Template
-# Configuration File
-#
-#
-
-markdown: kramdown
-markdown_ext: "markdown,mkdown,md,mkd,mkdn"
-
-# Information for compile
-exclude: ["node_modules", "gulpfile.js", "package.json", "README-sera.md"]
-
-#######################################################
-#######################################################
-###############   HEADER INFORMATIONS   ###############
-#######################################################
-#######################################################
-
-# This is your site title
+---
 title: Indigo Beetle
-# Website language
+timezone: UTC
+collections:
+  portfolio:
+    title: Portfolio
+    output: true
+    permalink: "/:collection/:name"
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+markdown: kramdown
+markdown_ext: markdown,mkdown,md,mkd,mkdn
+exclude:
+- node_modules
+- gulpfile.js
+- package.json
+- README-sera.md
 lang: en-GB
-# Header Title
-header-title: <strong>Left Brain</strong> <em>Right Brain</em>
-# Header Tagline
+header-title: "<strong>Left Brain</strong> <em>Right Brain</em>"
 headter-tagline: Uncomplicating the complicated
-
-####################################
-######   CTA Header Buttons   ######
-####################################
-
-# Focus Buttons
-#header-focus-button:
-#  title: Download Now
-#  url: https://themeforest.net/collections/6069390-sera
-
-# Secondary Buttons
-#header-secondary-button:
-#  title: Discover More
-#  url: http://themeforest.net/user/gleesik
-
-#
-# If your website is placed in a separate folder on your server please modify
-# this with your folder name, by default is empty.
-# Example: Sera Demo is hosted on projects.gleesik.ro/sera-onepage
-# If I compile Sera Template and I put in /sera-onepage without modifing baseurl
-# than scripts can't be loaded corectly.
-# For this example my site url is: projects.gleesik.ro (This can be just www.example.com)
-# My folder for Demo Website is: /sera-onepage so baseurl: /sera-onepage
-#
 baseurl: 
-
-#
-# This is your email adress, contact from send here all emails from contact section
-# IMPORTANT: you can modify contact form from this static template, but now works contact form works with a free external server
-# To configure this contact form, first please send a fictive email afeter you enter below your email and verify that :)
-#
 email: pgregory@indigobeetle.co.uk
-
-# Offer Banner Link
-# Default link is a link to all Sera OnePage products
 banner-link: https://themeforest.net/collections/6069390-sera
-
-####################################
-######  Global Social Links   ######
-####################################
-#youtube: '#'
-#pinterest: '#'
-facebook: 'https://www.facebook.com/indigobeetle/'
-twitter: 'https://twitter.com/indigobeetle'
-#google-plus: '#'
-#vimeo: '#'
-linkedin: 'https://www.linkedin.com/in/pcgregory/'
-
-#########################
-######   Widgets   ######
-#########################
-
-#
-# About Blog Author Widget
-#
+facebook: https://www.facebook.com/indigobeetle/
+twitter: https://twitter.com/indigobeetle
+linkedin: https://www.linkedin.com/in/pcgregory/
 about-widget:
   author-avatar: avatar2.png
   author-name: Paul Gregory
   author-tagline: Software Specialist
   author-info: Driven by the desire to empower the worlds' Right Brains through technology.
   author-social-links:
-    facebook: 'https://www.facebook.com/pcgregory'
-    twitter: 'https://twitter.com/pcgregory'
-    linkedin: 'https://www.linkedin.com/in/pcgregory/'
-
-# Google Map JS api
-# This is my api for this template
-#key-api: AIzaSyDbnxVZQannH0GF4gtnnBFPiP9ofm2WqGs
-#map-text: Sera Google Map
-#map-text-location: Bucharest, Romania
-#map-lat: 44.4267674
-#map-lng: 26.102538399999958
-
-# Enter your Mailchimp User ID and Campaign ID
-# @TODO: Add in a link for where to find these
+    facebook: https://www.facebook.com/pcgregory
+    twitter: https://twitter.com/pcgregory
+    linkedin: https://www.linkedin.com/in/pcgregory/
 mailchimp:
   user-id: 55a3ba457c48738318dd70dfb
   list-id: eb4745d6d0
-  list-action: 'https://indigobeetle.us16.list-manage.com/subscribe/post'
-
-####
-#
-# Hi you now use Sera - OnePage Jekyll Template created by Gleesik™
-#
-# Below are each section from the website in order from top to bottom
-# @TODO Edit each sections with your real information and each section from Sera will autocomplete with your information
-#
-####
-
-#####################################
-#############   About   #############
-#####################################
+  list-action: https://indigobeetle.us16.list-manage.com/subscribe/post
 about-title: A Little About Me
-about-description: |+
-  Hi, I'm Paul Gregory.
-  <br /><br />
-  I'm a lifelong fanatic of all things technology, specialising in software
-  engineering and architecture. I have a long career in this field, working
-  with many great organisations, covering topics as diverse as film and TV
-  special effects, mobile gaming, VR and insure-tech.
-  <br /><br />
-  I have a particular passion for the blend between creative media and 
-  technology, and thrive on providing new and innovative solutions to enable
-  and empower artistic people to create without boundaries.
-  <br /><br />
-  I apply 30+ years of experience in the software industry, from engineer to CTO, 
-  working with some of the most talented people in the field, to design, plan 
-  and implement with an extremely high level of rigour and quality.
-
-#####################################
-#############  Expertise  ############
-#####################################
+about-description: "Hi, I'm Paul Gregory.\n<br /><br />\nI'm a lifelong fanatic of
+  all things technology, specialising in software\nengineering and architecture. I
+  have a long career in this field, working\nwith many great organisations, covering
+  topics as diverse as film and TV\nspecial effects, mobile gaming, VR and insure-tech.\n<br
+  /><br />\nI have a particular passion for the blend between creative media and \ntechnology,
+  and thrive on providing new and innovative solutions to enable\nand empower artistic
+  people to create without boundaries.\n<br /><br />\nI apply 30+ years of experience
+  in the software industry, from engineer to CTO, \nworking with some of the most
+  talented people in the field, to design, plan \nand implement with an extremely
+  high level of rigour and quality.\n\n"
 features-title: Expertise
-features-description: |+ 
-  I believe strongly in an "engineering first" approach to software development,
-  which means I consider every problem from a pure engineering perspective, agnostic 
-  to any language or framework considerations, planning only how to best solve the
-  problem at a high level. The result of this approach is that my expertise can be
-  applied to any situation, and language choice is just a tool not a constraint. The 
-  result of taking this approach to every situation means I have exposure to more than
-  40 different languages and development systems, and the ability to choose the right
-  tool for the job each time. 
-
-#
-# Features
-#
+features-description: "I believe strongly in an \"engineering first\" approach to
+  software development,\nwhich means I consider every problem from a pure engineering
+  perspective, agnostic \nto any language or framework considerations, planning only
+  how to best solve the\nproblem at a high level. The result of this approach is that
+  my expertise can be\napplied to any situation, and language choice is just a tool
+  not a constraint. The \nresult of taking this approach to every situation means
+  I have exposure to more than\n40 different languages and development systems, and
+  the ability to choose the right\ntool for the job each time. \n\n"
 features:
-
-# Feature
 - title: Mobile App Development
-  description: |+
+  description: |
     With expertise in both native, Swift/ObjectiveC and Java/Kotlin/C++, and cross platform
     frameworks, Flutter, React Native, I can bring your mobile app ideas to life across both
     Apple and Google platforms, and deliver a store ready solution.
   icon: fa fa-mobile-alt
-
-# Feature
-- title: Video Games 
-  description: |+
-    Having started my career in 1984 developing games for the 8bit home computers of the time
-    and working through the video game revolution on platforms such as pre-smart mobile phones, 
-    PC's, consoles and smartphones, I can bring a broad spectrum of experience and knowledge to
-    realising your gaming passion.
-  icon: fa fa-gamepad 
-
-# Feature
+- title: Video Games
+  description: "Having started my career in 1984 developing games for the 8bit home
+    computers of the time\nand working through the video game revolution on platforms
+    such as pre-smart mobile phones, \nPC's, consoles and smartphones, I can bring
+    a broad spectrum of experience and knowledge to\nrealising your gaming passion.\n"
+  icon: fa fa-gamepad
 - title: CGI & Visual Effects
-  description: |+
-    I created the <a href="/pages/aqsis/">Aqsis</a> renderer as a personal project, recreating Pixar's 
-    legendary Renderman rendering system, which led to my contribution to the book
-    <a href="https://link.springer.com/book/10.1007/b138603"><b>Production Rendering : Design and Implementation</b></a>.
-    I can use this insight and deep level understanding of 3D graphics and animation, to power
-    your visual effects needs.
+  description: "I created the <a href=\"/pages/aqsis/\">Aqsis</a> renderer as a personal
+    project, recreating Pixar's \nlegendary Renderman rendering system, which led
+    to my contribution to the book\n<a href=\"https://link.springer.com/book/10.1007/b138603\"><b>Production
+    Rendering : Design and Implementation</b></a>.\nI can use this insight and deep
+    level understanding of 3D graphics and animation, to power\nyour visual effects
+    needs.\n"
   icon: fa fa-film
-
-# Feature
 - title: Web Applications
-  description: |+
-    I have many years full-stack development experience in the most popular frameworks and languages, 
-    VueJS, React, Angular, Django, Node, ASP.NET and many more, as well as enterprise level systems
-    design and management. I can bring this experience to bear on your web delivered project.
+  description: "I have many years full-stack development experience in the most popular
+    frameworks and languages, \nVueJS, React, Angular, Django, Node, ASP.NET and many
+    more, as well as enterprise level systems\ndesign and management. I can bring
+    this experience to bear on your web delivered project.\n"
   icon: fa fa-code
-
-#####################################
-############  Portfolio  ############
-#####################################
 portfolio-title: Portfolio
-portfolio-description: Some of the projects and products I've worked on, professionally or as hobby/side projects.
-  
-
-#####################################
-########### Testimonials ############
-#####################################
+portfolio-description: Some of the projects and products I've worked on, professionally
+  or as hobby/side projects.
 testimonials-title: Testimonials
-testimonials-description: A few words from some of the people I've been fortunate enough to work alongside through my career.
-
-#
-# Testimonials
-#
+testimonials-description: A few words from some of the people I've been fortunate
+  enough to work alongside through my career.
 testimonials:
-
-# Client
 - name: Michael Steliaros
   avatar: steliaros.jpg
   url: https://www.linkedin.com/in/michaelsteliaros/
   url-text: Director of Research, Glu Mobile
-  cite: | 
+  cite: |
     Paul is highly results focused and consistent at getting outstanding results in the face of competing priorities. Always keeps the greater picture in mind and is highly objective.<br />
     Self-motivated and always willing to take independent action, comes up with great ideas and solid implementation based on considered research & design.<br />
     One of the most dependable people on the team and can always be counted upon to deliver. Can be trusted with important decisions and he has the skill to get things done.
   logo-img: glu_logo.png
-
-# Client
 - name: Zahir Mazhar
   url: https://www.linkedin.com/in/zahir-mazhar-0541099/
   url-text: Technical Lead Project Manager, Red Dot Square Solutions Ltd.
   avatar: zahir.jpg
-  cite: Paul is a self motivated and supportive leader who not only listens but also coaches and mentors his teams to perform to their best. With excellent knowledge of all things technical, Paul can be relied upon to provide innovative and creative solutions to complex issues, which, will meet and exceed quality and customer expectations. As my Line manager, Paul was a true mentor and coach who gains the respect of his teams by being hands on and involved in resolving issues.
+  cite: Paul is a self motivated and supportive leader who not only listens but also
+    coaches and mentors his teams to perform to their best. With excellent knowledge
+    of all things technical, Paul can be relied upon to provide innovative and creative
+    solutions to complex issues, which, will meet and exceed quality and customer
+    expectations. As my Line manager, Paul was a true mentor and coach who gains the
+    respect of his teams by being hands on and involved in resolving issues.
   logo-img: rdss.gif
-
-# Client
 - name: Jonathan Privett
   url: https://www.linkedin.com/in/jonathan-privett-0353941/
   url-text: Head of Film & TV, Rushes Postproduction
   avatar: jonathan.jpg
-  cite: Paul was an incredible asset to the team here at Rushes and his technical knowledge in the sphere of 3D rendering is immense. He also managed to learn the relevant software and write from scratch a shot tracking program showcasing his ability to change discipline and program pretty much anything. It was certainly a loss when Paul moved on and I'd recommend him to anyone seeking a resourceful and highly knowledgeable software architect.
+  cite: Paul was an incredible asset to the team here at Rushes and his technical
+    knowledge in the sphere of 3D rendering is immense. He also managed to learn the
+    relevant software and write from scratch a shot tracking program showcasing his
+    ability to change discipline and program pretty much anything. It was certainly
+    a loss when Paul moved on and I'd recommend him to anyone seeking a resourceful
+    and highly knowledgeable software architect.
   logo-img: rushes-postproduction.png
-
-# Client
 - name: Bryan Salt
   url: https://www.linkedin.com/in/bryan-salt-7869ab17/
   url-text: Global Creative Director, Superscape Ltd.
   avatar: bryan.jpg
-  cite: I was lucky enough to work with Paul for many years including my first job at incentive software, a company that produced ground breaking 3d games on low powered machines in the 80s. Paul was one of three cutting edge engineers that were some of the best I have worked with in my long career. What made Paul stand out was his ability to listen to the users, designers and other non programers, understand the business need and incorporate these needs into his design for the tools. 24 years later, Paul is still the guy I drop a call to if I have an impossible problem that no one else can help with, he is always happy to help out and point me in the right direction. I recommend Paul as a highly talented, open minded, flexible, experienced and thoroughly nice chap.
+  cite: I was lucky enough to work with Paul for many years including my first job
+    at incentive software, a company that produced ground breaking 3d games on low
+    powered machines in the 80s. Paul was one of three cutting edge engineers that
+    were some of the best I have worked with in my long career. What made Paul stand
+    out was his ability to listen to the users, designers and other non programers,
+    understand the business need and incorporate these needs into his design for the
+    tools. 24 years later, Paul is still the guy I drop a call to if I have an impossible
+    problem that no one else can help with, he is always happy to help out and point
+    me in the right direction. I recommend Paul as a highly talented, open minded,
+    flexible, experienced and thoroughly nice chap.
   logo-img: superscape_logo.jpg
-
-# Client
-- name: Gavin Simpson 
+- name: Gavin Simpson
   url: https://www.linkedin.com/in/gavinssimpson/
   url-text: GPU Compute Engineer, ARM Holdings
   avatar: gavhead.jpg
-  cite: |+
-    Paul is an outstanding engineer. I've worked with him over many years and can vouch that his software engineering skills are second to none. Complex mathematical problems (think 3D renderer) or more creative development skills, not a problem. He also has the knack of explaining tricky concepts in easy to understand terms which proves very reassuring.  
-    <br /><br />
-    In short, if you're looking for flawless advice, and a solid well engineered solution implemented impossibly quickly, seek out Paul.
+  cite: "Paul is an outstanding engineer. I've worked with him over many years and
+    can vouch that his software engineering skills are second to none. Complex mathematical
+    problems (think 3D renderer) or more creative development skills, not a problem.
+    He also has the knack of explaining tricky concepts in easy to understand terms
+    which proves very reassuring.  \n<br /><br />\nIn short, if you're looking for
+    flawless advice, and a solid well engineered solution implemented impossibly quickly,
+    seek out Paul.\n"
   logo-img: arm_logo.png
-
-#####################################
-############# Blog ##############
-#####################################
 blog-title: Blog
 blog-description: 
-
-
-#####################################
-############   Contact   ############
-#####################################
 contact-title: Contact Me
 contact-description: 
-
-
-#####################################
-#############   Footer   ############
-#####################################
 footer-description: 
 footer-copyright-text: Indigo Beetle
 footer-copyright-url: https://www.indigobeetle.co.uk
 footer-copyright-year: 2022
-
 gems:
-  - jekyll-sitemap
-
-
-collections:
-  portfolio:
-    output: true
-    permalink: /:collection/:name
-
+- jekyll-sitemap

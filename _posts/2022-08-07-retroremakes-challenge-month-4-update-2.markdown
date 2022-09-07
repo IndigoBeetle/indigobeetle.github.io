@@ -1,15 +1,16 @@
 ---
-layout: post
-title: "RetroRemakes Challenge : Month 4 Update 2"
-date: 2022-08-07T08:54:55.572Z
-image: /images/blog/splat-2-screengrab.png
-excerpt: Building out the gameplay elements.
-tags:
-  - Retro
-  - Gaming
+title: 'RetroRemakes Challenge : Month 4 Update 2'
+date: 2022-08-07 08:54:55 Z
 categories:
-  - RetroRemakes
+- RetroRemakes
+tags:
+- Retro
+- Gaming
+layout: post
+image: "/images/blog/splat-2-screengrab.png"
+excerpt: Building out the gameplay elements.
 ---
+
 Last time I explained how I got the map into Godot from the image provided by <https://maps.speccy.cz>. Since then I've spent some time experimenting with different ways of representing the view of the original game. In Splat! there is a window onto the play area, 24x14 cells, which is surrounded by a brick wall, which is the barrier against which Zippy (the protagonist) gets squished when out of luck. There are a number of different ways to achieve this effect in a modern system such as Godot. The first I tested out was to have the map fill the screen, and then add a secondary layer with the surround that sat on top of the map layer, separated by using z-index to ensure the order is correct. This worked ok, but felt like a bit of a hack, and required either a special image, with a fixed size, for the overlay, with the viewport in the center being transparent to show the map through, or some fiddling with multiple parts to create a frame, neither of which I was happy with.
 
 The second method, which is the one I settled on, was to create a secondary viewport. In Godot you can create many viewports, each with their own world, camera etc. and then render them very easily into a separate bitmap that you can then use in a GUI layer. You can see the simple node tree that implements this below...

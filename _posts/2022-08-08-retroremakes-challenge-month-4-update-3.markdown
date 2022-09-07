@@ -1,17 +1,17 @@
 ---
-layout: post
-title: "RetroRemakes Challenge : Month 4 Update 3"
-date: 2022-08-08T19:56:54.868Z
-image: /images/blog/splat-2-screengrab.png
-excerpt: Added simple player sprite, collision detection and controls, and
-  changed map movement to be automatic, based on a timers and a random direction
-  change.
-tags:
-  - Retro
-  - Gaming
+title: 'RetroRemakes Challenge : Month 4 Update 3'
+date: 2022-08-08 19:56:54 Z
 categories:
-  - RetroRemakes
+- RetroRemakes
+tags:
+- Retro
+- Gaming
+layout: post
+image: "/images/blog/splat-2-screengrab.png"
+excerpt: Added simple player sprite, collision detection and controls, and changed
+  map movement to be automatic, based on a timers and a random direction change.
 ---
+
 Quick update this time round, thanks to the approach used so far, adding collision detection and movement to match the original, for now, was incredibly simple. 
 
 Each non-space tile in the `TileSet` for the map was given a simple square collision shape, this makes everything except white space collidable, which means for now you can't walk through grass etc. to collect, but you'll see in a moment why it's easy change that behaviour. A simple `KinematicBody2D` node represents the player, with a square collision shape, shrunk slightly to avoid floating point inaccuracy causing collision when sliding along a wall. 

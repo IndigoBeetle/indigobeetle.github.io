@@ -1,15 +1,19 @@
 ---
+title: 'RetroRemakes Challenge : Month 2 Day 1'
+date: 2022-06-02 12:08:00 Z
+categories:
+- RetroRemakes
+tags:
+- Programming
+- Software
+- Retro
 layout: post
-title: "RetroRemakes Challenge : Month 2 Day 1"
 description: Day 1 of the second remake, Jumping Jack by Imagine Software.
-tagline: "Jumping Jack"
-date: 2022-06-02 12:08
-categories: [RetroRemakes]
-tags: [Programming, Software, Retro]
-image: /images/blog/jumping_jack_d1.png
+tagline: Jumping Jack
+image: "/images/blog/jumping_jack_d1.png"
 excerpt: |
-    Building out the basic mechanic, trying out some rendering and collision
-    techniques to find the easiest and most appropriate.
+  Building out the basic mechanic, trying out some rendering and collision
+  techniques to find the easiest and most appropriate.
 ---
 
 Moving on from the success of the previous remake, Confuzion, wanted to hit the

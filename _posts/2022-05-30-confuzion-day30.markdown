@@ -1,15 +1,19 @@
 ---
+title: 'RetroRemakes Challenge : Month 1 Day 30'
+date: 2022-05-30 16:20:00 Z
+categories:
+- RetroRemakes
+tags:
+- Programming
+- Software
+- Retro
 layout: post
-title: "RetroRemakes Challenge : Month 1 Day 30"
 description: Day 30 of the first remake, Confuzion by Incentive Software.
-tagline: "Confuzion"
-date: 2022-05-30 16:20
-categories: [RetroRemakes]
-tags: [Programming, Software, Retro]
-image: /images/blog/confuzion_mix.png
+tagline: Confuzion
+image: "/images/blog/confuzion_mix.png"
 excerpt: |
-    Released, one day ahead of the deadline, and I haven't had as much
-    fun as this in a long time.
+  Released, one day ahead of the deadline, and I haven't had as much
+  fun as this in a long time.
 ---
 
 After the last post on [day 26]({% post_url 2022-05-26-confuzion-day26 %}) I

@@ -1,16 +1,17 @@
 ---
-layout: post
-title: "RetroRemakes Challenge : Month 4 Update 4"
-date: 2022-08-15T15:17:18.988Z
-image: /images/blog/scan2022-08-11_154327.jpeg
-excerpt: Matching the map movement logic to the original, thanks to a printout
-  of the original BASIC code.
-tags:
-  - Retro
-  - Gaming
+title: 'RetroRemakes Challenge : Month 4 Update 4'
+date: 2022-08-15 15:17:18 Z
 categories:
-  - RetroRemakes
+- RetroRemakes
+tags:
+- Retro
+- Gaming
+layout: post
+image: "/images/blog/scan2022-08-11_154327.jpeg"
+excerpt: Matching the map movement logic to the original, thanks to a printout of
+  the original BASIC code.
 ---
+
 Last time I explained that I implemented a really simple map movement into the game, as a placeholder, roughly emulating the original random movement. Since then I've been in touch with [Ian Andrew](https://www.ianandrew.com/), the original designer and co-coder of [Splat!](https://www.ianandrew.com/copy-of-mined-out). Thankfully, Ian is incredibly diligent at storing and retaining assets from various prior projects and ventures, including Incentive Software and Splat!. He even has all the BASIC code for the game, printed out on tractor feed fanfold printer paper, printed in dot matrix. The image above is a snippet of that code that Ian identified and scanned for me to explain the logic behind the map movement. 
 
 It is written in Sinclair BASIC, a variant of BASIC designed by Nine Tiles for Sinclair machines in 1979. The relevant code in that snippet is between lines 8001 and 8300. The first few lines initialise a bunch of variables used in tracking the map movement.

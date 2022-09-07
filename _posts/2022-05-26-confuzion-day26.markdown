@@ -1,16 +1,20 @@
 ---
+title: 'RetroRemakes Challenge : Month 1 Day 26'
+date: 2022-05-26 23:48:00 Z
+categories:
+- RetroRemakes
+tags:
+- Programming
+- Software
+- Retro
 layout: post
-title: "RetroRemakes Challenge : Month 1 Day 26"
 description: Day 26 of the first remake, Confuzion by Incentive Software.
-tagline: "Confuzion"
-date: 2022-05-26 23:48
-categories: [RetroRemakes]
-tags: [Programming, Software, Retro]
-image: /images/blog/confuzion-d26.png
+tagline: Confuzion
+image: "/images/blog/confuzion-d26.png"
 excerpt: |
-    On the final stretch now, music and sounds are mostly in, graphics
-    are all but done, just on the last bit of trying to match the gameplay
-    to the original as closely as is reasonable.
+  On the final stretch now, music and sounds are mostly in, graphics
+  are all but done, just on the last bit of trying to match the gameplay
+  to the original as closely as is reasonable.
 ---
 
 Day 26: I've spent a little time adding a couple of tile variations, just

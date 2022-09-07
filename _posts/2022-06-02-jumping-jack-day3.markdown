@@ -1,15 +1,19 @@
 ---
+title: 'RetroRemakes Challenge : Month 2 Day 3'
+date: 2022-06-02 12:08:00 Z
+categories:
+- RetroRemakes
+tags:
+- Programming
+- Software
+- Retro
 layout: post
-title: "RetroRemakes Challenge : Month 2 Day 3"
 description: Day 3 of the second remake, Jumping Jack by Imagine Software.
-tagline: "Jumping Jack"
-date: 2022-06-02 12:08
-categories: [RetroRemakes]
-tags: [Programming, Software, Retro]
-image: /images/blog/jumping_jack_collision.png
+tagline: Jumping Jack
+image: "/images/blog/jumping_jack_collision.png"
 excerpt: |
-    Implementation of the collision handling system, allowing the player to
-    jump/fall through the gaps, while keeping the collision shapes simple.
+  Implementation of the collision handling system, allowing the player to
+  jump/fall through the gaps, while keeping the collision shapes simple.
 ---
 
 As mentioned in the [previous]({% post_url 2022-06-02-jumping-jack-day1 %}) post 

@@ -1,12 +1,17 @@
 ---
+title: Giselle2 - The Revival
+date: 2020-06-15 10:58:00 Z
+categories:
+- Giselle2
+tags:
+- Programming
+- Procedural
+- Project
+- Giselle2
 layout: post
-title: "Giselle2 - The Revival"
-description: Reviving an old project during quarantine. 
-tagline: ""
-date: 2020-06-15 10:58
-categories: [Giselle2]
-tags: [Programming, Procedural, Project, Giselle2]
-image: /images/blog/giselle2.png
+description: Reviving an old project during quarantine.
+tagline: ''
+image: "/images/blog/giselle2.png"
 excerpt: |
   I have been looking for a project to work on during lockdown, and in general,
   to keep my skills up, and to offer me a challenge alongside my day job. Decided

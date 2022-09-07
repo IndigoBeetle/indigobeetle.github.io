@@ -1,8 +1,9 @@
 ---
+title: Cact-Eye
+categories:
+- Games
 layout: page
-title: "Cact-Eye"
-categories: [Games]
-image: /images/portfolio/cact-eye-thumb.png
+image: "/images/portfolio/cact-eye-thumb.png"
 description: A game jam entry for the theme "Out of Place Cacti", created in a week
 ---
 

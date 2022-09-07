@@ -1,18 +1,21 @@
 ---
+title: 'RetroRemakes Challenge : Month 1 Day 12'
+date: 2022-05-12 23:04:00 Z
+categories:
+- RetroRemakes
+tags:
+- Programming
+- Software
+- Retro
 layout: post
-title: "RetroRemakes Challenge : Month 1 Day 12"
 description: Day 12 of the first remake, Confuzion by Incentive Software.
-tagline: "Confuzion"
-date: 2022-05-12 23:04
-categories: [RetroRemakes]
-tags: [Programming, Software, Retro]
-image: /images/blog/confuzion-d12.png
+tagline: Confuzion
+image: "/images/blog/confuzion-d12.png"
 excerpt: |
-    Graphical improvements, lots of flow changes and polish, but most important
-    of all, a level editor. Not planned, but the math supported it and it was
-    fun.
+  Graphical improvements, lots of flow changes and polish, but most important
+  of all, a level editor. Not planned, but the math supported it and it was
+  fun.
 ---
-
 
 Day12: I've been spending what time I can spare on the game polishing various
 parts to make the whole thing a lot more complete.

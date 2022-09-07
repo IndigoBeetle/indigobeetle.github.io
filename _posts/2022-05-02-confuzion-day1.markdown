@@ -1,17 +1,20 @@
 ---
+title: 'RetroRemakes Challenge : Month 1 Day 1'
+date: 2022-05-02 18:54:00 Z
+categories:
+- RetroRemakes
+tags:
+- Programming
+- Software
+- Retro
 layout: post
-title: "RetroRemakes Challenge : Month 1 Day 1"
 description: Day 1 of the first remake, Confuzion by Incentive Software.
-tagline: "Confuzion"
-date: 2022-05-02 18:54
-categories: [RetroRemakes]
-tags: [Programming, Software, Retro]
-image: /images/blog/confuzion.png
+tagline: Confuzion
+image: "/images/blog/confuzion.png"
 excerpt: |
-    Building the foundation, basic components and experimenting with tile
-    rendering options.
+  Building the foundation, basic components and experimenting with tile
+  rendering options.
 ---
-
 
 Ok, I've committed to [this](/retroremakes/2022/04/22/retroremakes.html) now,
 no going back. I have chosen a game that both holds a lot of memories for me,

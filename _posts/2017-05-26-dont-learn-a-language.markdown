@@ -1,14 +1,21 @@
 ---
+title: Don't Learn a Language
+date: 2017-05-26 15:53:00 Z
+categories:
+- Programming
+tags:
+- Programming
+- Learning
+- Software
+- Design
 layout: post
-title: "Don't Learn a Language"
 description: Future-proof your software career, don't get stuck in a rut.
-tagline: "Career Choices"
-date: 2017-05-26 15:53
-categories: [Programming]
-tags: [Programming, Learning, Software, Design]
-image: /images/blog/img-03.jpg
-excerpt: |
-  I'm occassionally asked "What is the best language for me to learn?", my response, "Don't learn a language, learn to program!"
+tagline: Career Choices
+image: "/images/blog/img-03.jpg"
+excerpt: 'I''m occassionally asked "What is the best language for me to learn?", my
+  response, "Don''t learn a language, learn to program!"
+
+'
 ---
 
 In my role as a technology leader, I'm occassionally asked by people looking to

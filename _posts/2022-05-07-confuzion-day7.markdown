@@ -1,17 +1,19 @@
 ---
+title: 'RetroRemakes Challenge : Month 1 Day 7'
+date: 2022-05-07 14:59:00 Z
+categories:
+- RetroRemakes
+tags:
+- Programming
+- Software
+- Retro
 layout: post
-title: "RetroRemakes Challenge : Month 1 Day 7"
 description: Day 7 of the first remake, Confuzion by Incentive Software.
-tagline: "Confuzion"
-date: 2022-05-07 14:59
-categories: [RetroRemakes]
-tags: [Programming, Software, Retro]
-image: /images/blog/confuzion-d7.png
-excerpt: |
-    Adding some polish and preparing behind the scenes changes to support 
-    multiple levels and proper game flow.
+tagline: Confuzion
+image: "/images/blog/confuzion-d7.png"
+excerpt: "Adding some polish and preparing behind the scenes changes to support \nmultiple
+  levels and proper game flow.\n"
 ---
-
 
 Day7: a lot of work behind the scenes cleaning up some of the rushed code that
 is inevitable when building something this fast and loose. 

@@ -1,17 +1,20 @@
 ---
+title: 'RetroRemakes Challenge : Month 1 Day 20'
+date: 2022-05-20 14:58:00 Z
+categories:
+- RetroRemakes
+tags:
+- Programming
+- Software
+- Retro
 layout: post
-title: "RetroRemakes Challenge : Month 1 Day 20"
 description: Day 20 of the first remake, Confuzion by Incentive Software.
-tagline: "Confuzion"
-date: 2022-05-20 14:58
-categories: [RetroRemakes]
-tags: [Programming, Software, Retro]
-image: /images/blog/confuzion-d20.jpg
+tagline: Confuzion
+image: "/images/blog/confuzion-d20.jpg"
 excerpt: |
-    Lots of changes, mostly refactoring the spark and tile logic to better
-    compartmentalise the code and make it reusable for the water droplets.
+  Lots of changes, mostly refactoring the spark and tile logic to better
+  compartmentalise the code and make it reusable for the water droplets.
 ---
-
 
 Day20: Been away from the project for a bit, busy with real life stuff. Finally
 got some time today to return to it. Spent some time refactoring the code in

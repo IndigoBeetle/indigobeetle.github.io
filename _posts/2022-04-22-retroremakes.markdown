@@ -1,15 +1,19 @@
 ---
+title: RetroRemakes Challenge
+date: 2022-04-22 19:22:00 Z
+categories:
+- RetroRemakes
+tags:
+- Programming
+- Software
+- Retro
 layout: post
-title: "RetroRemakes Challenge"
 description: Remake 12 Classic Spectrum Games in 12 Months
-tagline: "RetroRemakes"
-date: 2022-04-22 19:22
-categories: [RetroRemakes]
-tags: [Programming, Software, Retro]
-image: /images/blog/640px-ZXSpectrum48k.jpeg
+tagline: RetroRemakes
+image: "/images/blog/640px-ZXSpectrum48k.jpeg"
 excerpt: |
-    A challenge, remake 12 classic ZX Spectrum games in 12 months, in honour of the
-    40th anniversary of the little machine that could.
+  A challenge, remake 12 classic ZX Spectrum games in 12 months, in honour of the
+  40th anniversary of the little machine that could.
 ---
 
 Photo By Bill Bertram - Own work, CC BY-SA 2.5, [Link](https://commons.wikimedia.org/w/index.php?curid=170050)

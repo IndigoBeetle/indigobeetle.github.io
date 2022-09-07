@@ -1,16 +1,17 @@
 ---
-layout: post
-title: "RetroRemakes Challenge : Month 4 Update 5"
-date: 2022-08-29T08:21:59.912Z
-image: /images/blog/splat_menu.png
-excerpt: Decided (not much choice, but hey) to go a slightly different direction
-  with this month's challenge.
-tags:
-  - Retro
-  - Gaming
+title: 'RetroRemakes Challenge : Month 4 Update 5'
+date: 2022-08-29 08:21:59 Z
 categories:
-  - RetroRemakes
+- RetroRemakes
+tags:
+- Retro
+- Gaming
+layout: post
+image: "/images/blog/splat_menu.png"
+excerpt: Decided (not much choice, but hey) to go a slightly different direction with
+  this month's challenge.
 ---
+
 As is so often the case, best laid plans and all that, time has been precariously short this month again for my work on Splat. I've had some amazing help from Ian Andrew, providing full BASIC listings, map sketches, etc. from his archives, which has meant that this game is far more true to the original than the previous ones.
 
 In the previous games, I've basically played the original game a bit, with some POKEs where available, and then tried to recreate that feel as much as possible, but with updated graphics and sound. This time around, I've been able to recreate the actual logic, the carefully thought out algorithm that Ian came up with nearly 40 years ago, has been recreated pretty accurately, so the movement of the map is as close as possible to the original. Also, as I described in an earlier post, I extracted the map data from the map .png image available online, and while doing so extracted the original tile artwork. I initially intended this to be a starting point only, something to get me going while working on the game logic, and had every intention of creating new artwork when I got a chance. 

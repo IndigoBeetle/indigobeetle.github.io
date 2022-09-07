@@ -1,12 +1,18 @@
 ---
+title: Giselle2 - Architecture - Part 1
+date: 2020-07-05 15:14:00 Z
+categories:
+- Giselle2
+tags:
+- Programming
+- Procedural
+- Project
+- Giselle2
+- Architecture
 layout: post
-title: "Giselle2 - Architecture - Part 1"
-description: Settling on a low level design for Giselle2. 
-tagline: ""
-date: 2020-07-05 15:14
-categories: [Giselle2]
-tags: [Programming, Procedural, Project, Giselle2, Architecture]
-image: /images/blog/road-start-beginning-design.jpg
+description: Settling on a low level design for Giselle2.
+tagline: ''
+image: "/images/blog/road-start-beginning-design.jpg"
 excerpt: |
   After some major cleanup work on the original Giselle2 source code to
   clean up external dependencies, I've been working on simplifying the underlying architecture to provide a generic but powerful core that can then be built up into a complete feature set.

@@ -1,14 +1,23 @@
 ---
+title: Is the Web Killing the Desktop?
+date: 2017-05-27 12:50:00 Z
+categories:
+- Development
+tags:
+- Programming
+- Software
+- Design
+- WebApps
 layout: post
-title: "Is the Web Killing the Desktop?"
-description: How developments in browser technology could make desktop development unnecessary.
-tagline: "The Future of Software"
-date: 2017-05-27 12:50
-categories: [Development]
-tags: [Programming, Software, Design, WebApps]
-image: /images/blog/browsers-1273344_1280.png
-excerpt: |
-  With more and more high power API's coming to the browser, and the increasing demand for rapidly accessible, specialised applications, are we seeing the death of native desktop based application installs?
+description: How developments in browser technology could make desktop development
+  unnecessary.
+tagline: The Future of Software
+image: "/images/blog/browsers-1273344_1280.png"
+excerpt: 'With more and more high power API''s coming to the browser, and the increasing
+  demand for rapidly accessible, specialised applications, are we seeing the death
+  of native desktop based application installs?
+
+'
 ---
 
 There was a time, not so long ago, when the web was just that, the "World Wide Web". Times have changed, at an incredible pace, driven by improvements in the availability of high speed networks, and consequently, in the capabilities of web browsers and the breadth and depth of standardised web API's. 

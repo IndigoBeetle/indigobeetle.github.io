@@ -1,12 +1,13 @@
 ---
-layout: page
 title: Splat Remake
 categories:
-  - Games
-image: /images/portfolio/splat1.png
-description: A remake of the classic Spectrum game Splat from Incentive
-  Software, circa 1983.
+- Games
+layout: page
+image: "/images/portfolio/splat1.png"
+description: A remake of the classic Spectrum game Splat from Incentive Software,
+  circa 1983.
 ---
+
 <figure>
     <img src="/images/blog/splat_menu.png" width="100%" alt="Game Screenshot">
     <figcaption>Splat Remake</figcaption>

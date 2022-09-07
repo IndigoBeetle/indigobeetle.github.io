@@ -1,8 +1,9 @@
 ---
+title: FruitSpritzer
+categories:
+- Games
 layout: page
-title: "FruitSpritzer"
-categories: [Games]
-image: /images/portfolio/fruit-thumb.png
+image: "/images/portfolio/fruit-thumb.png"
 description: A frantic fun take on the match 3 game
 ---
 

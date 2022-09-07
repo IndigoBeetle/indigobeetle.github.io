@@ -1,12 +1,16 @@
 ---
+title: Don't Throw it Away Just Yet
+date: 2017-08-14 11:30:00 Z
+categories:
+- Programming
+tags:
+- Programming
+- Games
+- Learning
 layout: post
-title: "Don't Throw it Away Just Yet"
 description: Older hardware could offer great benefits.
-tagline: ""
-date: 2017-08-14 11:30
-categories: [Programming]
-tags: [Programming, Games, Learning]
-image: /images/blog/img-06.jpg
+tagline: ''
+image: "/images/blog/img-06.jpg"
 excerpt: |
   Why you shouldn't throw out those old laptops too quickly. The value of
   developing on older hardware.

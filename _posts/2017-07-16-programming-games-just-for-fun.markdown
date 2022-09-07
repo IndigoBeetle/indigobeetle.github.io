@@ -1,12 +1,16 @@
 ---
+title: Programming Games Just for Fun
+date: 2017-07-16 11:00:00 Z
+categories:
+- GameDev
+tags:
+- Programming
+- Games
+- Learning
 layout: post
-title: "Programming Games Just for Fun"
 description: It's not always about the money, or fame.
-tagline: "Just for Fun"
-date: 2017-07-16 11:00
-categories: [GameDev]
-tags: [Programming, Games, Learning]
-image: /images/blog/img-05.jpg
+tagline: Just for Fun
+image: "/images/blog/img-05.jpg"
 excerpt: |
   Never underestimate the importance of doing something you love, simply because
   you enjoy it, and for no other reason.<br /><br />

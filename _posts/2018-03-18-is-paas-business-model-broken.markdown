@@ -1,12 +1,17 @@
 ---
+title: Is the mBaaS Business Model Broken?
+date: 2018-03-18 21:32:00 Z
+categories:
+- Infrastructure
+tags:
+- Programming
+- Games
+- DevOps
 layout: post
-title: "Is the mBaaS Business Model Broken?"
-description: Asking whether it's wise to invest heavily in a commercial mBaaS service provider.
-tagline: ""
-date: 2018-03-18 21:32
-categories: [Infrastructure]
-tags: [Programming, Games, DevOps]
-image: /images/blog/img-07.jpg
+description: Asking whether it's wise to invest heavily in a commercial mBaaS service
+  provider.
+tagline: ''
+image: "/images/blog/img-07.jpg"
 excerpt: |
   With the current trend towards acquisition of mBaaS companies, should you
   be putting the future of your development and apps in the hands of these

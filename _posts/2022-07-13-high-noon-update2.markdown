@@ -1,15 +1,19 @@
 ---
+title: 'RetroRemakes Challenge : Month 3 Update 2'
+date: 2022-07-13 14:30:00 Z
+categories:
+- RetroRemakes
+tags:
+- Programming
+- Software
+- Retro
 layout: post
-title: "RetroRemakes Challenge : Month 3 Update 2"
 description: Implementing a simple NPC AI.
-tagline: "High Noon"
-date: 2022-07-13 15:30 +0100
-categories: [RetroRemakes]
-tags: [Programming, Software, Retro]
-image: /images/blog/high-noon-1.png
+tagline: High Noon
+image: "/images/blog/high-noon-1.png"
 excerpt: |
-    Using behavior trees to implement a very basic computer
-    controller player AI.
+  Using behavior trees to implement a very basic computer
+  controller player AI.
 ---
 
 In the last post, I mentioned that I would be implementing a simple computer

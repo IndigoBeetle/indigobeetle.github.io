@@ -1,17 +1,20 @@
 ---
+title: 'RetroRemakes Challenge : Month 1 Day 3'
+date: 2022-05-04 10:41:00 Z
+categories:
+- RetroRemakes
+tags:
+- Programming
+- Software
+- Retro
 layout: post
-title: "RetroRemakes Challenge : Month 1 Day 3"
 description: Day 3 of the first remake, Confuzion by Incentive Software.
-tagline: "Confuzion"
-date: 2022-05-04 10:41
-categories: [RetroRemakes]
-tags: [Programming, Software, Retro]
-image: /images/blog/confuzion-spark.jpg
+tagline: Confuzion
+image: "/images/blog/confuzion-spark.jpg"
 excerpt: |
-    Getting sparks to work and travel the board as tiles move, following
-    the tracks on each tile independently.
+  Getting sparks to work and travel the board as tiles move, following
+  the tracks on each tile independently.
 ---
-
 
 Day2/3: managed to get the spark logic working, this will also be applied to
 water droplets when I get to those. 

@@ -1,15 +1,19 @@
 ---
+title: 'RetroRemakes Challenge : Month 2 Day 12'
+date: 2022-06-02 12:08:00 Z
+categories:
+- RetroRemakes
+tags:
+- Programming
+- Software
+- Retro
 layout: post
-title: "RetroRemakes Challenge : Month 2 Day 12"
 description: Day 12 of the second remake, Jumping Jack by Imagine Software.
-tagline: "Jumping Jack"
-date: 2022-06-02 12:08
-categories: [RetroRemakes]
-tags: [Programming, Software, Retro]
-image: /images/blog/jumping_jack_scroll.png
+tagline: Jumping Jack
+image: "/images/blog/jumping_jack_scroll.png"
 excerpt: |
-    Implemented the poem/rhyme that gets revealed as you progress in the game,
-    as well as level support and enemies.
+  Implemented the poem/rhyme that gets revealed as you progress in the game,
+  as well as level support and enemies.
 ---
 
 Just a quick update this time, this game is progressing really fast due its

@@ -1,10 +1,11 @@
 ---
-layout: page
 title: High Noon Remake
 categories:
-  - Games
-image: /images/portfolio/screenshot1.png
-description: A remake of the classic Spectrum game High Noon by Work Force, circa 1983.
+- Games
+layout: page
+image: "/images/portfolio/screenshot1.png"
+description: A remake of the classic Spectrum game High Noon by Work Force, circa
+  1983.
 ---
 
 <figure>

@@ -1,15 +1,19 @@
 ---
+title: 'RetroRemakes Challenge : Month 3 Update 1'
+date: 2022-07-11 21:53:00 Z
+categories:
+- RetroRemakes
+tags:
+- Programming
+- Software
+- Retro
 layout: post
-title: "RetroRemakes Challenge : Month 3 Update 1"
 description: First update of the third remake, High Noon by Work Force.
-tagline: "High Noon"
-date: 2022-07-11 22:53 +0100
-categories: [RetroRemakes]
-tags: [Programming, Software, Retro]
-image: /images/blog/high-noon-1.png
+tagline: High Noon
+image: "/images/blog/high-noon-1.png"
 excerpt: |
-    Taking an incredibly simple arcade classic into 3D just to make it
-    more interesting, while retaining the original feel.
+  Taking an incredibly simple arcade classic into 3D just to make it
+  more interesting, while retaining the original feel.
 ---
 
 First update of the third remake, month 3, July, brings 

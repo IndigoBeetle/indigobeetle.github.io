@@ -1,9 +1,9 @@
 ---
-layout: page
 title: Attack HQ
 categories:
-  - Games
-image: /images/portfolio/attack-thumb.png
+- Games
+layout: page
+image: "/images/portfolio/attack-thumb.png"
 description: A game jam entry for the theme "Build/Rebuild", created in a week
 ---
 

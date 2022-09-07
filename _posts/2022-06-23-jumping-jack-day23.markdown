@@ -1,15 +1,19 @@
 ---
+title: 'RetroRemakes Challenge : Month 2 Day 23'
+date: 2022-06-23 13:53:00 Z
+categories:
+- RetroRemakes
+tags:
+- Programming
+- Software
+- Retro
 layout: post
-title: "RetroRemakes Challenge : Month 2 Day 23"
 description: Day 23 of the second remake, Jumping Jack by Imagine Software.
-tagline: "Jumping Jack"
-date: 2022-06-23 13:53
-categories: [RetroRemakes]
-tags: [Programming, Software, Retro]
-image: /images/blog/jumping_jack_hazards1.png
+tagline: Jumping Jack
+image: "/images/blog/jumping_jack_hazards1.png"
 excerpt: |
-    How I create graphics assets for the game, given my limited artistic
-    ability.
+  How I create graphics assets for the game, given my limited artistic
+  ability.
 ---
 
 Most of the remaining work for this, relatively simple game, will be creation

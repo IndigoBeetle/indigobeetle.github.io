@@ -17,6 +17,6 @@ I﻿'ve tweaked the shooting a bit, feel there's still a lot that could be impro
 
 A﻿nother thing I didn't get round to doing and might add if I get a chance to return to any of these in the future, is the range indicator on the bike console. Again, I don't think it distracts from the game too much, and in fact you can hit the bikes when they aren't at their minimum distance, but you have to be a pretty good shot to do that, so I'm ok with that.
 
-https://indigobeetle.itch.io/deathchase-remake
+[https://indigobeetle.itch.io/deathchase-remake](https://indigobeetle.itch.io/deathchase-remake)
 
 P﻿lan to the remainder of this month as a break from this challenge before starting the next one.

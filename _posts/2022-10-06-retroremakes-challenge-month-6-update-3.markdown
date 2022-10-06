@@ -1,0 +1,24 @@
+---
+layout: post
+title: "RetroRemakes Challenge : Month 6 Update 3"
+date: 2022-10-06T20:45:20.068Z
+image: /images/blog/driller3.png
+excerpt: Lots of progress, room import almost finished, logic starting to take
+  shape, almost playable.
+tags:
+  - Retro
+  - Games
+categories:
+  - RetroRemakes
+---
+A﻿nother update on the progress of the Driller remake. I've made significant changes to the way the original Freescape database is loaded and processed in Godot now, applying materials properly, and adjusting things to take into account differences in the way Freescape worked, and how modern systems work.
+
+C﻿ollision volumes, based on the actual mesh geometry, are automatically added to each object as it is imported, these are used to both prevent the player from just going through everything, but also to trigger FCL  (Freescape Command Language) logic when the player hits objects in the scene. This caused a few issues in particular with polygon based objects, which are in Freescape infinitely thin, and cause problems with a more realistic physics collision system like Godot uses. I was finding that when the player walked into a door, which is represented by a "rectangle" type object, the collision was being missed on the rectangle, but triggered on the object the doorway is on, which is usually a "cube" or "pyramid". To overcome this I found adding a slight margin to the collision volume for polygon type objects helped, it forced Godot to see the collision with the polygon in preference to the object with a real volume. It seems to work for now, we'll see if it causes any other issues as time goes on.
+
+M﻿aterials are applied to each surface of an object as they are imported. In Freescape, which obviously has no lighting, the shading of 3D objects was manually applied by giving each surface a different colour, or stipple pattern on the Spectrum, this behaviour is now replicated, with each surface getting its own material in Godot. It took some effort to work out the order of the surface materials for objects like pyramids, I'm sure there's some optimal logic at play for the order, but I couldn't get my head round it, so I just brute forced it. I basically opened up Driller in a Spectrum emulator that has a debugger interface, and went into the memory of the database and started modifying the materials applied to an object of each type, and noting how that changed the render, then changing it again, in order to work out the order of surfaces in each case, then replicated that using a big switch statement in Godot. I'd love to get a chance to pick Chris' or Ian's brain at some time to find out what the actual logic was, as I'm certain it would be far more optimal than the solution I've come up with. Material 0 is transparent in Freescape, so I've replicated that behaviour too, which results in the transparent rectangles surrounding most of the rooms, which are used for collision detection for triggering a transition to the neighbouring area.
+
+T﻿ransitions to neighbouring areas via full width rectangles, such as the transition from Amethyst to Niccolite, needed some special code. The GOTO command in FCL takes two parameters, the area to go to, and the ID of an "entrance" object in the target area to place the player. An "entrance" object is just a simple object type that has no visible representation, and is used just as a placeholder to move the player to when using the GOTO command. If the entrance ID is 0, the logic is different, it places the player as if they'd crossed over the boundary of the previous area and into the new, retaining the appropriate position and orientation. When going from Amethyst to Niccolite for example, the player crosses the positive Z extreme of Amethyst, and enters Niccolite on the negative Z extreme, so the code just needs to invert the player's Z position in the new area, while leaving the X and Y untouched, and the orientation also untouched, and the illusion of crossing a barrier between the two areas is complete. As you can see from the screenshot, all the areas are loaded into the game at once, unlike the original, but in order to maintain the same gameplay, and not affect any of the puzzle logic that Ian so carefully crafted, I hide all but the current area, to achieve the same effect as the original, which only had one area visible at any one time.
+
+T﻿he video below shows some of the updates, and a short sequence of gameplay, showing that the area transitions are working as expected, as well as some other logic, all from just 4 FCL commands, VIS, INVIS, TOGVIS and GOTO.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2we4W15XodQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -4429,6 +4429,11 @@ section.blog-section.page-layout article.blog-article ul, section.blog-section.p
   padding-bottom: 30px;
 }
 
+section.blog-section.page-layout article.blog-article ul li, section.blog-section.page-layout article.blog-article ol li {
+  line-height: 1.5;
+  margin-bottom: 1em;
+}
+
 section.blog-section.page-layout article.blog-article ul li p, section.blog-section.page-layout article.blog-article ol li p {
   margin-bottom: 1em;
 }

@@ -28,24 +28,22 @@ Happy Holidays everyone, and a happy New Year! 🎉
 
 <https://indigobeetle.itch.io/special-delivery>
 
-
-
-### Credits
-
-Original Game Design : Dalali Software Ltd. 1984
-Remake : Paul Gregory
+#### Credits
 
 Artwork:
-	Santa/Reindeer Models : [racoon456 (cgtrader)](https://www.cgtrader.com/raccoon456)
-	Presents : [knik1985 (opengameart)](https://opengameart.org/content/sweets-and-gifts)
-	Christmas Tree : [pechvogel (opengameart)](https://opengameart.org/content/x-mas-tree)
-	Key : [Wolf_Sleuth (opengameart)](https://opengameart.org/content/key-sprite)
-	Sleigh Game Backgrounds : [CraftPix.net](https://craftpix.net/freebies/free-horizontal-2d-game-backgrounds)
-	Additional Artwork and Animations : Paul Gregory
+
+* Santa/Reindeer Models : [racoon456 (cgtrader)](https://www.cgtrader.com/raccoon456)
+* Presents : [knik1985 (opengameart)](https://opengameart.org/content/sweets-and-gifts)
+* Christmas Tree : [pechvogel (opengameart)](https://opengameart.org/content/x-mas-tree)
+* Key : [Wolf_Sleuth (opengameart)](https://opengameart.org/content/key-sprite)
+* Sleigh Game Backgrounds : [CraftPix.net](https://craftpix.net/freebies/free-horizontal-2d-game-backgrounds)
+* Additional Artwork and Animations : Paul Gregory
 
 Music:
-	[Geoff Harvey (Pixabay)](https://pixabay.com/users/geoffharvey-9096471)
+
+* [Geoff Harvey (Pixabay)](https://pixabay.com/users/geoffharvey-9096471)
 
 SFX:
-	Lightning: [Simon Spiers (freesound.org)](https://freesound.org/people/Simon%20Spiers/)
-	Additional SFX : Paul Gregory
+
+* Lightning: [Simon Spiers (freesound.org)](https://freesound.org/people/Simon%20Spiers/)
+* Additional SFX : Paul Gregory (bfxr)

@@ -6,7 +6,15 @@
  *
  **/
 
+@use "sass:color";
+
 section.portfolio-section {
+  background-color: black;
+  
+
+  .section-header h2 {
+    color: $primary !important;
+  }
 
   // Filter Menu
   .filter-menu-wrapper {
@@ -69,14 +77,20 @@ section.portfolio-section {
       margin-bottom: 30px;
       transform: scale(0.95);
       transition: all $transition-links $transition-links-type;
+      height: 200px;
+      max-height: 200px;
 
       // Item Image
       .img-wrap {
         position: relative;
+        width: 100%;
+        height: 100%;
 
         img {
           width: 100%;
           display: block;
+          max-height: 100%;
+          object-fit: contain;
         }
 
       }
@@ -115,7 +129,7 @@ section.portfolio-section {
         right: 15px;
         bottom: 0;
         color: $white;
-        background: transparentize($primary, 0.2);
+        background: transparentize(color.scale($primary, $lightness: -40%), 0.2);
 
         // Animation
         transform: translateY(100%);
@@ -124,9 +138,13 @@ section.portfolio-section {
         h3, h4 {
           text-transform: uppercase;
         }
+        
+        h4 {
+          font-style: italic;
+        }
 
         h3 {
-          font-size: 2rem;
+          font-size: 1.5rem;
           margin-bottom: 10px;
         }
 
@@ -158,6 +176,10 @@ section.portfolio-section {
               }
             }
           }
+        }
+        
+        p.item-description {
+          text-align: center;
         }
 
       }

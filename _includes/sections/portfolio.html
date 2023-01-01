@@ -48,18 +48,15 @@
             <img src="{{ site.baseurl }}{{ item.image }}" alt="Portfolio Item Image" />
           {% endif %}
         </figure>
-        <div class="item-content">
-          <h3>{{ item.title }}</h3>
-          <h4>{{ item.categories | first }}</h4>
-          <div class="links">
-            <ul>
-              <li><a href="{{ item.url }}" class="item-link"><span class="pe-7s-link"><span class="hidden-text">{{ item.title }}</span></span></a></li>
-            </ul>
+        <a href="{{ item.url }}">
+          <div class="item-content">
+            <h3>{{ item.title }}</h3>
+            <h4>{{ item.categories | first }}</h4>
+            {% if item.description %}
+              <p class="item-description">{{ item.description }}</p>
+            {% endif %}
           </div>
-					{% if item.description %}
-						<p class="item-description">{{ item.description }}</p>
-					{% endif %}
-        </div>
+        </a>
       </div>
 
       {% endfor %}

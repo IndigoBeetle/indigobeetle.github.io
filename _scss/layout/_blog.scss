@@ -23,13 +23,18 @@ section.blog-section {
         list-style: initial;
         display: block;
         padding-left: 40px;
+        padding-bottom: 30px;
         li p {
+          line-height: 1.5;
           margin-bottom: 1em;
         }
       }
 
       ol {
         list-style-type: decimal;
+        li {
+          padding-bottom: 0.5em;
+        }
       }
 
       h2 {

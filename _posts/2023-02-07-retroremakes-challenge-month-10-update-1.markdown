@@ -18,7 +18,7 @@ I've started on the game and spent a couple of hours tinkering with the control 
 
 ![TileMap tiles showing collision shape of ladder.](/images/blog/screenshot-2023-02-07-at-21.22.31.png "TileMap tiles")
 
-![Player](/images/blog/screenshot-2023-02-07-at-21.27.45.png "Player")
+<img src="/images/blog/screenshot-2023-02-07-at-21.27.45.png" width="200">
 
 With this in place, I can easily query if the player is over a ladder, and if they press the up or down key, allow them to switch to the climbing state and climb up/down, I also move the player to the centre of the ladder at the same time to make it more like the original. This is more forgiving than the original, which required you to be exactly at the centre of the ladder before you could climb, and I think it feels more natural.
 

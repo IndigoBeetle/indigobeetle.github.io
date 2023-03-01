@@ -19,4 +19,4 @@ It's currently only available as a web app, but I'll be releasing it for free, n
 
 It can generate random games roughly at three difficulty levels, but the generation algorithm is no particularly clever, so probably creates some rubbish games as well. It does create games that are solvable and only have a single solution. It has undo/redo, notes, and other tools that I deem useful when playing such as various row, column and box highlighting, remaining number counts etc.
 
-Play the game [here](https://www.indigobeetle.co.uk/portfolio/sudoku).
+Play the game here.

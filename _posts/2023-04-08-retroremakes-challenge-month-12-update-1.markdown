@@ -1,0 +1,27 @@
+---
+layout: post
+title: "RetroRemakes Challenge : Month 12 Update 1"
+date: 2023-04-08T15:46:18.145Z
+image: /images/blog/screenshot-2023-04-08-at-16.48.19.png
+excerpt: Wow, made it to the final month, can't say I won't be happy to be finished.
+tags:
+  - Retro
+  - Gaming
+categories:
+  - RetroRemakes
+---
+The last game of this year-long series, Eric and the Floaters, circa 1982, by Hudsonsoft and published by Sinclair Research, one of the reasons I chose it as the final game.
+
+It's a simple game, based loosely on Bomberman (or is it the other way around, not clear). Move your character, Eric, around a simple maze, avoiding the "Floaters", not sure about that name, they are balloons, why not call them balloons, floaters, not a good look. You have an infinite supply of bombs you can place in the maze to destroy the Floaters, they go off automatically after a delay, so you have to get out of the way in time, harder than it sounds, especially as it progresses.
+
+I'm intentionally going to keep this one simple, time is of the essence this month, and I don't want to fail after 11 successes. I started out by just bringing in the original artwork and adjusting to modern screen resolutions. Given the nature of the game, a TileMap in Godot is a no-brainer. Also, given the movement, there appears to be no good reason to employ any physics or collision detection, keep it simple. All movement is just shifting a sprite after checking which tile is in the place the sprite wants to go, allowing it to move if it's empty, failing if it's anything other than empty, i.e. a wall. As the gameplay in the original seems to be tied to the fact that movement is on an 8x8 grid, as is common on Spectrum games, I've duplicated that restriction. 
+
+The explosions themselves were the cause of most of the time spent so far. You see, a bomb can be placed on an 8-pixel boundary, while the large wall blocks are 16x16, so a bomb can be positioned halfway between two blocks. The explosion extends out 2 blocks in all directions, but if it is placed on a half-block boundary, then the explosion is only 8 pixels wide in that direction. I didn't want the explosion graphics to be 32x32 (my equivalent of the 8x8 on the original), 64x64 would give more room to create a more pleasing animation. So I explored ways of masking off parts of the 64x64 depending on which parts of the explosion are visible. Godot has a neat tool for masking parts of 2D graphics using its 2D lighting system. 2D lights in Godot are textures that apply a light effect to objects that they touch, so, for example, you can create a large round gradient to give the effect of a light source fading out as it gets further away from the centre. This feature can be used for a different effect, setting the light source to "mask" mode masks off anything that isn't white in the light texture. However, it's only possible to have a single texture per light source, and I didn't want to have one for every combination of the 2x2 grid, it wouldn't have been an issue in terms of size, just goes against the grain for me as an engineer. So I found another way of doing it. Godot allows you to render another scene into a texture in the background, and then use that texture anywhere you'd use an image. So I created a simple scene with 4 32x32 white squares arranged into a 64x64 block, each can be turned on and off independently. This is rendered into a texture that is then applied to the light source to mask the explosion. Difficult to explain, but it's shown in the video below a bit more clearly. However, after spending far too much time tinkering with this, I found that I didn't like the way the explosion was constrained to 64x64 blocks, it looked like an explosion in a glass box. So after all that work, I ended up throwing it away, rendering the explosion particle system with no constraints, so it expands beyond the 64x64 block to a degree, and instead rendering it between the black background and the TileMap, so the walls naturally block out the parts of the explosion not visible, this is far simpler and more visually pleasing. So, all that time with masking and rendering to textures was effectively for nought, but hey, it's a good technique to keep in my back pocket for the future.
+
+Finally, for this short update, I added a Floater implementation. Floaters can be in one of two modes as far as I can determine, random movement or chasing. If they are in random mode, they move in a random direction for a random amount of time and then change direction to another one and wait for another random duration. If they are chasing, they look for Eric and move towards him in a very rudimentary way, trying to move in the axis they are furthest away first, if there is an obstacle, move in the other axis. Seems to mimic reasonably closely the original approach, for now anyway.
+
+I'll probably do one more update on this, and hopefully get it out ahead of schedule.
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2dONEI_d9nc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

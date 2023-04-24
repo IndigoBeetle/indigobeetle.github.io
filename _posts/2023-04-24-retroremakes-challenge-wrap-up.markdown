@@ -1,0 +1,29 @@
+---
+layout: post
+title: "RetroRemakes Challenge : Wrap Up"
+date: 2023-04-24T10:50:02.074Z
+image: /images/blog/summary-labelled.png
+excerpt: Made it to the end! Quite the rollercoaster ride, I knew it was going
+  to be a challenge, but it took a lot more than I had anticipated, despite some
+  hiccups and close calls, I'm happy to say I managed to complete the challenge,
+  delivering each game on time, sometimes only just, and making it through to
+  the end.
+tags:
+  - Retro
+  - Gaming
+categories:
+  - RetroRemakes
+---
+Wow! I can't believe I'm actually at this point, there were definitely times over the last year when I thought "What did I do this for again?!?!". Some months were more challenging than others, mainly due to a lack of available time and real-world distractions. 
+
+For all the trials and tribulations, it's been a fun journey for sure, and I honestly feel like I've learned some along the way. Where possible, I've tried to explore engineering approaches that I'm not overly familiar with in order to expose myself to new ways of doing things, even where they might feel a little overkill for the simple games being made, such as behaviour trees for the AI player in High Noon. I've also learned that sometimes it is not a good idea to use all the tools at your disposal. For many of the games I started out using the Godot physics and collision detection system, just because it's there, and only realised later on that, largely due to the way the games were designed, it was unnecessary, and in fact could make reproducing the feel of the original harder than it needed to be. Sometimes I fought on despite this realisation, which has itself given me a greater understanding of the ways in which the Godot engine can be adapted and tweaked, others I decided to switch to a more straightforward approach, such as with Eric and the Floaters, which used no physics or collision detection at all, just simple rectangle overlap checks and simple evaluation of the tilemap contents to decide where the player and floaters can move, and what damage an explosion has caused.
+
+A very potent common experience throughout the year-long project has been the feeling of nostalgia, and the sense of respect I have for those who created these masterpieces originally. Creating such engaging and fun games on such a constrained system took a great deal of creativity and dedication. It cannot be overstated how amazing these achievements were, every one of these games in its original form played on, at most, 48KB of RAM, on a machine with a 3.5MHz 8-bit Z80 CPU, to put this into stark context, the image at the head of this blog post is 2.4MB, that's 50 48K Spectrum games! Add to that the extreme limitations on graphics and sound and it's a miracle these games were ever made, let alone were so much fun and so successful. A testament to the creativity of the designers and coders (often the same person) and something I personally believe modern game designers could learn a thing or two from. I'm sure a lot of the emotions these games evoke are tied very much to the nostalgia I feel personally for that period, and that might influence how good I feel the games are, but in many cases, the games stand on their own, and if you can look beyond the graphics and sound limitations, even modern gamers would find a fun game in each and every one of them. Unfortunately, most modern gamers have been brainwashed to expect "next generation" photorealism, detail and depth, even if the gameplay is mundane and repetitive, as long as it looks mind-blowingly amazing, it must be a good game, right?
+
+Of the games I tackled during this challenge, some of the most fun were those I had some connection to, mainly those from Incentive, where I could gain an insight into the game itself from the original designer, and in some cases, even get access to the original code to understand some of the intricate gameplay decisions that made the game so good. "[Splat!](https://indigobeetle.itch.io/splat-remake)" was a favourite, as I had direct input from Ian Andrew, and he even managed to provide some printouts (on fanfold paper no less!) of the original Sinclair BASIC code. Similarly "[Mined Out](https://indigobeetle.itch.io/mined-out)", also an Ian Andrew original, I was able to quiz Ian about his thinking at the time, his ability to recollect some of the finer details some 40 years later was incredible. Others continue to have an ardent following even today, resulting in valuable resources online to help understand the original game and ensure my remakes were respectful of the original where it mattered, "[Driller"](https://indigobeetle.itch.io/driller), and all the Freescape games, have such a following, although for obvious reasons I had to draw on those resources less than others. "[Chuckie Egg](https://indigobeetle.itch.io/chuckie-egg)" has a massive following that I was unaware of, and provided invaluable resources in understanding the design behind the original game, including interviews with the original author, Nigel Alderton, which provide valuable insights into his thinking at the time.
+
+In short, I had a great time doing this, and even if the games never get played, or rarely, I'm happy to have done it, it was a fun challenge, brought back fond memories and taught me some useful lessons along the way.
+
+Where to now? Some of them definitely need revisiting to polish up and finish some details, I might get around to that. I also have an idea forming in the back of my mind to make some adjustments to support mobile play, and perhaps package them all up into a compilation that can be played on phones, just an idea at this point, we'll see. In the meantime, if anyone wants some nostalgic ZX Spectrum gameplay, you'll always find it here...\
+\
+https://indigobeetle.itch.io/

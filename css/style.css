@@ -2876,11 +2876,13 @@ header.site-header .site-navigation-bar {
 header.site-header .site-navigation-bar .logo img {
   display: block;
   float: left;
+  filter: drop-shadow(2px 2px 5px black);
 }
 header.site-header .site-navigation-bar .navigation-bar nav.nav-menu {
   position: relative;
   display: block;
   float: right;
+  text-shadow: 2px 2px 2px black;
 }
 header.site-header .site-navigation-bar .navigation-bar nav.nav-menu ul li {
   float: left;
@@ -2921,6 +2923,7 @@ header.site-header .header-banner {
 header.site-header .header-banner .heading-content {
   width: 100%;
   text-transform: uppercase;
+  text-shadow: 4px 4px 5px black;
 }
 header.site-header .header-banner .heading-content .heading-title hr.small {
   margin-top: 40px;

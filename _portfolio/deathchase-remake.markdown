@@ -7,7 +7,7 @@ image: /images/portfolio/wavll-.png
 description: A remake of the classic Chuckie Egg by A&F Software, circa 1983.
 ---
 <figure>
-    <img src="/images/blog/3amyxo.png" width="100%" alt="Game Screenshot">
+    <img src="/images/portfolio/3amyxo.png" width="100%" alt="Game Screenshot">
     <figcaption>Chuckie Egg Remake</figcaption>
 </figure>
 <br/>

@@ -59,6 +59,7 @@ header.site-header {
       img {
         display: block;
         float: left;
+        filter: drop-shadow(2px 2px 2px black);
       }
     }
 
@@ -74,6 +75,7 @@ header.site-header {
           li {
             float: left;
             margin-right: 30px;
+            text-shadow: 2px 2px 2px black;
 
             &:last-child {
               margin-right: 0;
@@ -127,6 +129,7 @@ header.site-header {
     .heading-content {
       width: 100%;
       text-transform: uppercase;
+      text-shadow: 2px 2px 2px black;
 
       .heading-title {
         hr.small {

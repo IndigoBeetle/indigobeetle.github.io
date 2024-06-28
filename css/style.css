@@ -34,7 +34,6 @@
  *    1.7 Animations
  *    1.8 Owl Carousel
  *    1.9 Font 7 Stroke Icons
- *    1.10 Flaticon Social Icons
  *  2. Components
  *    2.1 Forms
  *        2.1.1 Inputs
@@ -2242,157 +2241,6 @@ table {
   display: inline-block;
 }
 
-/*
-  Flaticon icon font: Flaticon Social Media Icons
-*/
-@font-face {
-  font-family: "Flaticon";
-  src: url("../fonts/Flaticon/Flaticon.eot");
-  src: url("../fonts/Flaticon/Flaticon.eot?#iefix") format("embedded-opentype"), url("../fonts/Flaticon/Flaticon.woff") format("woff"), url("../fonts/Flaticon/Flaticon.ttf") format("truetype"), url("../fonts/Flaticon/Flaticon.svg#Flaticon") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  @font-face {
-    font-family: "Flaticon";
-    src: url("../fonts/Flaticon/Flaticon.svg#Flaticon") format("svg");
-  }
-}
-.fi:before {
-  display: inline-block;
-  font-family: "Flaticon";
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  line-height: 1;
-  text-decoration: inherit;
-  text-rendering: optimizeLegibility;
-  text-transform: none;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;
-}
-
-.flaticon-badoo:before {
-  content: "\f100";
-}
-
-.flaticon-bebo:before {
-  content: "\f101";
-}
-
-.flaticon-behance:before {
-  content: "\f102";
-}
-
-.flaticon-blogger:before {
-  content: "\f103";
-}
-
-.flaticon-deviantart:before {
-  content: "\f104";
-}
-
-.flaticon-digg:before {
-  content: "\f105";
-}
-
-.flaticon-disqus:before {
-  content: "\f106";
-}
-
-.flaticon-dribbble:before {
-  content: "\f107";
-}
-
-.flaticon-facebook:before {
-  content: "\f108";
-}
-
-.flaticon-flickr:before {
-  content: "\f109";
-}
-
-.flaticon-forrst:before {
-  content: "\f10a";
-}
-
-.flaticon-google-plus:before {
-  content: "\f10b";
-}
-
-.flaticon-instagram:before {
-  content: "\f10c";
-}
-
-.flaticon-line:before {
-  content: "\f10d";
-}
-
-.flaticon-linkedin:before {
-  content: "\f10e";
-}
-
-.flaticon-myspace:before {
-  content: "\f10f";
-}
-
-.flaticon-pinterest:before {
-  content: "\f110";
-}
-
-.flaticon-plurk:before {
-  content: "\f111";
-}
-
-.flaticon-rss:before {
-  content: "\f112";
-}
-
-.flaticon-skype:before {
-  content: "\f113";
-}
-
-.flaticon-telegram:before {
-  content: "\f114";
-}
-
-.flaticon-tumblr:before {
-  content: "\f115";
-}
-
-.flaticon-twitter:before {
-  content: "\f116";
-}
-
-.flaticon-viber:before {
-  content: "\f117";
-}
-
-.flaticon-vimeo:before {
-  content: "\f118";
-}
-
-.flaticon-vine:before {
-  content: "\f119";
-}
-
-.flaticon-vk:before {
-  content: "\f11a";
-}
-
-.flaticon-whatsapp:before {
-  content: "\f11b";
-}
-
-.flaticon-xing:before {
-  content: "\f11c";
-}
-
-.flaticon-youtube:before {
-  content: "\f11d";
-}
-
 /**
  *
  *  Forms & Inputs Style
@@ -2463,6 +2311,7 @@ input:hover:-moz-placeholder, input:active:-moz-placeholder, textarea:hover:-moz
 .social-icons {
   display: inline-block;
   font-size: 1.35rem;
+  margin-top: 20px;
 }
 .social-icons ul.icons.global-text-color-icons li a {
   color: #5e5e5e;
@@ -2876,17 +2725,17 @@ header.site-header .site-navigation-bar {
 header.site-header .site-navigation-bar .logo img {
   display: block;
   float: left;
-  filter: drop-shadow(2px 2px 5px black);
+  filter: drop-shadow(2px 2px 2px black);
 }
 header.site-header .site-navigation-bar .navigation-bar nav.nav-menu {
   position: relative;
   display: block;
   float: right;
-  text-shadow: 2px 2px 2px black;
 }
 header.site-header .site-navigation-bar .navigation-bar nav.nav-menu ul li {
   float: left;
   margin-right: 30px;
+  text-shadow: 2px 2px 2px black;
 }
 header.site-header .site-navigation-bar .navigation-bar nav.nav-menu ul li:last-child {
   margin-right: 0;
@@ -2923,7 +2772,7 @@ header.site-header .header-banner {
 header.site-header .header-banner .heading-content {
   width: 100%;
   text-transform: uppercase;
-  text-shadow: 4px 4px 5px black;
+  text-shadow: 2px 2px 2px black;
 }
 header.site-header .header-banner .heading-content .heading-title hr.small {
   margin-top: 40px;
@@ -4365,6 +4214,9 @@ footer.site-footer .footer-info .footer-logo img {
 footer.site-footer .footer-info .footer-info-text {
   font-size: 0.875rem;
   padding: 35px 0;
+}
+footer.site-footer .footer-info .footer-links {
+  margin-top: 20px;
 }
 footer.site-footer .footer-info .social-icons a {
   color: #5e5e5e;

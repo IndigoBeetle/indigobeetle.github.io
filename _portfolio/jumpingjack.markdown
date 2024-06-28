@@ -2,6 +2,7 @@
 title: Jumping Jack
 categories:
 - Games
+- Game Jams
 layout: page
 image: "/images/portfolio/jack-thumb.png"
 description: A game jam entry for the topic "growth", created in a week.

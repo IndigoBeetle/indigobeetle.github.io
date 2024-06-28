@@ -3,7 +3,7 @@ layout: page
 title: Tumbly Match
 categories:
   - Games
-image: /images/portfolio/icon_test5.png
+image: /images/portfolio/tumbly_match.png
 description: A casual puzzler for iOS
 ---
 <figure>

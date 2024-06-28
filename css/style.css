@@ -3433,6 +3433,7 @@ section.portfolio-section .portfolio-grid .item .item-content h4 {
 section.portfolio-section .portfolio-grid .item .item-content h3 {
   font-size: 1.5rem;
   margin-bottom: 10px;
+  text-align: center;
 }
 section.portfolio-section .portfolio-grid .item .item-content .links {
   margin-top: 20px;

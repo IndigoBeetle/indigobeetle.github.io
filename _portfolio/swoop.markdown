@@ -16,4 +16,4 @@ I created this cross platform app for a freelance client. It was created in Flut
 
 I uses location based information to deliver time limited vouchers to users based on their current location, vouchers that local retailers of all sizes can publish to encourage shoppers in the vicinity to visit their stores.
 
-Available on the [Google Play Store](https://play.google.com/store/apps/details?id=com.swoopsave.swoop), and [Apple App Store](https://apps.apple.com/us/app/swoopsave/id6443673526).
+Available on the [![Google Play Store](/images/GetItOnGooglePlay_Badge_Web_color_English.png){:width="270"}](https://play.google.com/store/apps/details?id=com.swoopsave.swoop)and [![Apple App Store](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg){:width="270"}](https://apps.apple.com/us/app/swoopsave/id6443673526)

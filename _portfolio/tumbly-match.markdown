@@ -30,4 +30,4 @@ Discover new game mechanics including “Star matching” and a\
 
 Can you match 3? Then can you match 4,5,6 or 7 without matching 3?
 
-Play the game on [iOS](https://apps.apple.com/us/app/tumbly-match/id6445989642)
+Play the game on [![iOS](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg){: width="270"}](https://apps.apple.com/us/app/tumbly-match/id6445989642)

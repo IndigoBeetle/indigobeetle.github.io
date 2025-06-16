@@ -41,5 +41,4 @@ to develop new levels easily on device. The tool has some powerful features
 to allow procedural generation of thousands of levels from a defined set
 of parts and rules.
 
-Play the game on [iOS](https://apps.apple.com/gb/app/tumbly-rocks-tap-to-tumble/id1475915291)
-or [Android](https://play.google.com/store/apps/details?id=com.h23.tumblyrocks&gl=GB)
+Play the game on [![iOS](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg){:width="270"}](https://apps.apple.com/gb/app/tumbly-rocks-tap-to-tumble/id1475915291)

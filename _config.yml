@@ -26,6 +26,7 @@ baseurl:
 email: pgregory@indigobeetle.co.uk
 banner-link: https://themeforest.net/collections/6069390-sera
 facebook: https://www.facebook.com/indigobeetle/
+youtube: https://youtube.com/@indigobeetle
 linkedin: https://www.linkedin.com/in/pcgregory/
 about-widget:
   author-avatar: avatar2.png
@@ -34,8 +35,8 @@ about-widget:
   author-info: Driven by the desire to empower the worlds' Right Brains through technology.
   author-social-links:
     facebook: https://www.facebook.com/pcgregory
-    twitter: https://x.com/pcgregory
     linkedin: https://www.linkedin.com/in/pcgregory/
+    youtube: https://youtube.com/@indigobeetle
 mailchimp:
   user-id: 55a3ba457c48738318dd70dfb
   list-id: eb4745d6d0

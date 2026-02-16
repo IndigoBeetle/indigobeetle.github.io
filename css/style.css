@@ -3375,16 +3375,17 @@ section.portfolio-section .portfolio-grid {
   overflow-x: hidden;
 }
 section.portfolio-section .portfolio-grid .item {
+  padding: 0.5rem;
   display: block;
   position: relative;
   overflow: hidden;
-  margin-bottom: 30px;
   transform: scale(0.95);
   transition: all 300ms ease-in-out;
   height: 200px;
   max-height: 200px;
 }
 section.portfolio-section .portfolio-grid .item .img-wrap {
+  background: #32004b;
   position: relative;
   width: 100%;
   height: 100%;
@@ -3416,8 +3417,9 @@ section.portfolio-section .portfolio-grid .item .item-content {
   justify-content: center;
   position: absolute;
   top: 0;
-  left: 15px;
-  right: 15px;
+  left: 0.5rem;
+  right: 0.5rem;
+  top: 0.5rem;
   bottom: 0;
   color: #fff;
   background: rgba(149, 0, 224, 0.8);

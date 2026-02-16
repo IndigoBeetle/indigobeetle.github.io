@@ -14,6 +14,5 @@ description: Location based vouchers for local retailers.
 
 I created this cross platform app for a freelance client. It was created in Flutter to take advantage of the single source for multiple platforms, allowing cost effective development for iOS and Android. It connects with a Firebase based backend that I was also responsible for setting up and configuring.
 
-I uses location based information to deliver time limited vouchers to users based on their current location, vouchers that local retailers of all sizes can publish to encourage shoppers in the vicinity to visit their stores.
+It uses geofencing and location based information to deliver time limited vouchers to users based on their current location, vouchers that local retailers of all sizes can publish to encourage shoppers in the vicinity to visit their stores.
 
-Available on the [![Google Play Store](/images/GetItOnGooglePlay_Badge_Web_color_English.png){:width="270"}](https://play.google.com/store/apps/details?id=com.swoopsave.swoop)and [![Apple App Store](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg){:width="270"}](https://apps.apple.com/us/app/swoopsave/id6443673526)

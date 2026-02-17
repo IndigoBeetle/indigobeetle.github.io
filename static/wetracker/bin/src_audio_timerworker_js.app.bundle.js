@@ -132,7 +132,7 @@ self.onmessage = function (event) {
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("e2e8e1e3f0e5fca44412")
+/******/ 		__webpack_require__.h = () => ("f19c591c04e814d2ef4b")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
@@ -546,7 +546,7 @@ self.onmessage = function (event) {
 /******/ 	
 /******/ 	/* webpack/runtime/publicPath */
 /******/ 	(() => {
-/******/ 		__webpack_require__.p = "/bin/";
+/******/ 		__webpack_require__.p = "/static/wetracker/bin/";
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/importScripts chunk loading */

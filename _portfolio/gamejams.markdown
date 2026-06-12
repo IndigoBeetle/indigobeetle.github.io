@@ -5,6 +5,8 @@ categories:
   - Games
 image: /images/portfolio/game_jams.png
 description: Some fun game jams I've participated in to challenge myself.
+discipline: Rapid Prototyping
+order: 130
 ---
 <figure>
     <img src="/images/portfolio/game_jams.png" width="100%" alt="Header Image">

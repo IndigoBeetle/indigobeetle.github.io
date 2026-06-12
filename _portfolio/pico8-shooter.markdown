@@ -5,6 +5,8 @@ categories:
 layout: page
 image: "/images/portfolio/pico8-shooter-thumb.png"
 description: A fun shooter on the constrained Pico8 virtual console
+discipline: Constrained Systems
+order: 150
 ---
 
 <figure>
@@ -20,7 +22,7 @@ create small games, 32KB of memory, tiny screen, limited colour palette, and
 limited sound capabilities. 
 
 I found myself drawing on my experience of creating games in constrained
-environments back at the start of my career, working on games for the 8bit
+environments back at the start of my career, working on games for the 8-bit
 micros of the day, the [Sinclair ZX
 Spectrum](https://en.wikipedia.org/wiki/ZX_Spectrum), [Commodore
 64](https://en.wikipedia.org/wiki/Commodore_64), and [Amstrad

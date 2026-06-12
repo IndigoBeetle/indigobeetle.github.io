@@ -20,8 +20,8 @@ exclude:
 - package.json
 - README-sera.md
 lang: en-GB
-header-title: "<strong>Left Brain</strong> <em>Right Brain</em>"
-headter-tagline: Uncomplicating the complicated
+header-title: "<strong>Software Engineering</strong> <em>Creative Technology</em>"
+headter-tagline: From product strategy to production-ready systems
 baseurl: 
 email: pgregory@indigobeetle.co.uk
 banner-link: https://themeforest.net/collections/6069390-sera
@@ -31,8 +31,8 @@ linkedin: https://www.linkedin.com/in/pcgregory/
 about-widget:
   author-avatar: avatar2.png
   author-name: Paul Gregory
-  author-tagline: Software Specialist
-  author-info: Driven by the desire to empower the worlds' Right Brains through technology.
+  author-tagline: Senior Software Engineer & Technical Leader
+  author-info: Deep engineering experience for ambitious products, creative tools and interactive experiences.
   author-social-links:
     facebook: https://www.facebook.com/pcgregory
     linkedin: https://www.linkedin.com/in/pcgregory/
@@ -41,79 +41,75 @@ mailchimp:
   user-id: 55a3ba457c48738318dd70dfb
   list-id: eb4745d6d0
   list-action: https://indigobeetle.us16.list-manage.com/subscribe/post
-about-title: A Little About Me
+about-title: Engineering Depth. Product Perspective.
 about-description: |
-  Hi, I'm Paul Gregory, software engineer, technologist, geek, nerd, gamer.
+  I'm Paul Gregory, a senior software engineer and technical leader with more
+  than 30 years of experience turning difficult ideas into dependable software.
   <br/>  
   <br/>  
-  I'm a lifelong fan of all things technology, specialising in software 
-  engineering and architecture. I have a long career in this field, working with 
-  many great organisations, covering topics as diverse as film and TV special 
-  effects, mobile gaming, VR and insure-tech.
+  My career spans video games, real-time 3D and virtual reality, film and
+  television production, web and mobile products, digital audio and insurtech.
+  I have worked hands-on as an engineer, led teams and technical strategy, and
+  operated at CTO level.
   <br/>  
   <br/>  
-  I have a particular passion for the blend between creative media and 
-  technology, and thrive on providing new and innovative solutions to enable 
-  and empower artistic people to create without boundaries.
+  I am most useful where the brief is complex: understanding a specialist
+  domain, finding the right architecture, communicating clearly with technical
+  and non-technical stakeholders, and carrying the work through to delivery.
   <br/>  
   <br/>  
-  I apply 30+ years of experience in the software industry, from engineer to 
-  CTO, working with some of the most talented people in the field, to design, 
-  plan and implement with an extremely high level of rigour and quality.
+  Games and interactive experiences remain a particular passion, alongside the
+  creative tools, platforms and production systems that help other people do
+  their best work.
 features-title: Expertise
 features-description: |
-  I believe strongly in an "engineering first" approach to software 
-  development, which means I consider every problem from the perspective of 
-  problem solving, agnostic to any language or framework considerations, 
-  planning only how to best solve the problem at a high level. 
+  I take an engineering-first approach: understand the problem and its users,
+  establish the constraints, then choose the technology. Languages, frameworks
+  and cloud services are tools rather than the starting point.
   <br/>  
   <br/>  
-  The benefit of this approach is that my experience can be applied to any 
-  situation, language choice, framework, services, are just tools not 
-  constraints. 
-  <br/>  
-  <br/>  
-  I have experience with more than 40 different languages and development 
-  systems, and the freedom to choose the right tool for the job each time.
+  That perspective has been built across more than 40 languages and development
+  environments, from low-level systems and rendering engines to modern web,
+  mobile and cloud platforms.
 features:
-- title: Mobile App Development
+- title: Architecture & Technical Leadership
   description: |
-    With expertise in both native and cross platform frameworks such as 
-    Flutter and React Native, I can bring your mobile app ideas to life across 
-    both Apple and Google platforms, and deliver a store ready solution.
-  icon: fa fa-mobile-alt
-- title: Video Games
+    Technical discovery, system design, delivery planning, team leadership and
+    mentoring. I can set direction at product or platform level and remain
+    hands-on where implementation needs senior attention.
+  icon: fa fa-diagram-project
+- title: Games & Interactive Experiences
   description: |
-    Having started my career in 1984 developing games for the 8bit home
-    computers of the time and working through the video game revolution on 
-    platforms such as pre-smart mobile phones, PC's, consoles and smartphones, 
-    I can bring a broad spectrum of experience and knowledge to bear realising 
-    your gaming passion.
+    Four decades of game development experience across 8-bit computers,
+    feature phones, PC, console, web and smartphones, covering gameplay,
+    tooling, rendering, LiveOps and cross-platform delivery.
   icon: fa fa-gamepad
-- title: CGI & Visual Effects
+- title: Creative Technology & Production Tools
   description: |
-    I created the <a href=\"/pages/aqsis/\">Aqsis</a> renderer as a personal
-    project, recreating Pixar's legendary Renderman rendering system, which 
-    led to my contribution to the book
-    <br/>  
-    <a href=\"https://link.springer.com/book/10.1007/b138603\"><b>Production
-    Rendering : Design and Implementation</b></a>.
-    <br/>  
-    I can use this insight and deep level understanding of 3D graphics and 
-    animation, to power your visual effects technology needs.
-  icon: fa fa-film
-- title: Web Applications
+    Rendering, procedural content, digital audio and workflow software built
+    around the needs of artists, designers and production teams. This includes
+    the Aqsis RenderMan-compatible renderer and bespoke film production tools.
+  icon: fa fa-cubes
+- title: Web, Mobile & Cloud Products
   description: |
-    I have many years full-stack development experience in the most popular
-    frameworks and languages, VueJS, React, Angular, Django, Node, ASP.NET and 
-    many more, as well as enterprise level systems design and management. 
-    I can bring this experience to bear on your web delivered project, whatever 
-    your specific needs.
-  icon: fa fa-code
+    Full-stack web applications, native and cross-platform mobile apps, backend
+    services and cloud infrastructure. Experience includes Vue, React, Angular,
+    Django, Node, ASP.NET, Flutter, React Native and Firebase.
+  icon: fa fa-laptop-code
 portfolio-title: Portfolio
 portfolio-description: |
-  Some of the projects and products I've worked on, professionally or as 
-  hobby/side projects.
+  Selected case studies from commercial, open-source and independent work
+  across software platforms, creative tooling, graphics, mobile, web, audio and
+  games. The first view is curated for breadth; use the filters to explore the
+  full archive.
+portfolio-filters:
+- Software Engineering
+- Creative Technology
+- Games
+- Mobile
+- Web Applications
+- Graphics
+- Publications
 testimonials-title: Testimonials
 testimonials-description: |
   A few words from some of the people I've been fortunate enough to work 

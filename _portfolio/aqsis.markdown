@@ -2,9 +2,14 @@
 title: Aqsis
 categories:
 - Graphics
+- Software Engineering
+- Creative Technology
 layout: page
 image: "/images/portfolio/aqsis-thumb.png"
-description: An open source clone of Pixar's RenderMan renderer
+description: A production-quality, open-source RenderMan-compatible renderer.
+discipline: Rendering & Open Source
+featured: true
+order: 10
 ---
 
 <figure>
@@ -13,34 +18,32 @@ description: An open source clone of Pixar's RenderMan renderer
 </figure>
 <br/>
 
-Aqsis started many years ago as a means to itch a scratch I had. I was
-fascinated by the concept of programmable shaders in CGI, in particular Pixar's
-[RSL](https://en.wikipedia.org/wiki/RenderMan_Shading_Language). As a
-programmer, and frustrated artist, I always lean towards procedural content
-creation in art, as I can code and understand code far better than I can work a
-pencil or paintbrush (or indeed a mouse). Alongside the programmable shading,
-the idea of generating and modifying actual surface details through code was,
-to me, very exciting. Pixar's RenderMan, based on the REYES rendering system,
-allowed small programs written in RSL to be assigned to various elements of the
-scene, including to actually change the underlying geometry with real
-displacement, a capability no other renderer had at the time. The image above,
-contributed by Vikram Mulligan, is an example of this power, the underlying
-geometry is deceptively simple, just geometric primitives, the surface detail
-and colour all provided by shaders.
+## The Challenge
 
-However, at the time, 1990-ish, RenderMan was not available to the common man,
-so I decided to have a go at creating my own so that I could experiment with
-this exciting concept. From these humble roots grew the biggest personal
-project I've ever worked on, involving people from around the globe and
-achieving recognition I hadn't ever envisioned. The Aqsis project was accepted
-into the Google Summer of Code multiple times, and has been used as an
-educational tool as well as a production rendering solution through its
-lifetime. It also let me to Ian Stephenson, who approached me to contribute to
-the book ["Production Rendering: Design and
-Implementation"](https://link.springer.com/chapter/10.1007/1-84628-085-0_3).
+Pixar's RenderMan demonstrated how programmable shading and the REYES
+architecture could give technical artists precise control over production
+imagery. At the time, that capability was largely inaccessible outside major
+studios. I created Aqsis to explore those ideas and make a compatible rendering
+system available as open-source software.
 
-Now, sadly, largely overtaken by more modern rendering techniques enabled by
-advancing hardware capabilities, Aqsis still stands as a great codebase for
-learning about core graphics principles and software architecture practices.
+## The Engineering
 
-The home of the project is [here](http://www.aqsis.org)
+Aqsis grew into a substantial production renderer, including programmable
+shading, true displacement and the core systems required to turn complex scene
+descriptions into final imagery. The project demanded long-term architectural
+discipline as well as deep work in graphics, compilers, numerical methods,
+performance and cross-platform C++.
+
+It also became an international open-source collaboration. The project was
+accepted into Google Summer of Code multiple times and used both as an
+educational resource and as a production rendering solution.
+
+## The Outcome
+
+Aqsis led to my contribution to
+["Production Rendering: Design and Implementation"](https://link.springer.com/chapter/10.1007/1-84628-085-0_3)
+and remains a useful codebase for studying rendering and software architecture,
+even as production graphics has moved towards newer hardware-accelerated
+techniques.
+
+Visit the [Aqsis project](http://www.aqsis.org).

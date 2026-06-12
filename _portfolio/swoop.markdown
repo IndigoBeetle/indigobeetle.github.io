@@ -3,8 +3,13 @@ layout: page
 title: Swoop
 categories:
   - Mobile
+  - Web Applications
+  - Software Engineering
 image: /images/portfolio/swoop.jpeg
-description: Location based vouchers for local retailers.
+description: A cross-platform, location-aware mobile product with a Firebase backend.
+discipline: Mobile & Cloud
+featured: true
+order: 30
 ---
 <figure>
     <img src="/images/portfolio/swoop.jpeg" width="100%" alt="App Screenshot">
@@ -12,7 +17,25 @@ description: Location based vouchers for local retailers.
 </figure>
 <br/>
 
-I created this cross platform app for a freelance client. It was created in Flutter to take advantage of the single source for multiple platforms, allowing cost effective development for iOS and Android. It connects with a Firebase based backend that I was also responsible for setting up and configuring.
+## The Brief
 
-It uses geofencing and location based information to deliver time limited vouchers to users based on their current location, vouchers that local retailers of all sizes can publish to encourage shoppers in the vicinity to visit their stores.
+Swoop was created for a freelance client to connect local retailers with nearby
+shoppers through timely, location-aware offers.
 
+## The Solution
+
+I designed and delivered the cross-platform mobile application in Flutter,
+using a shared codebase to make iOS and Android delivery cost-effective. I was
+also responsible for setting up and configuring the Firebase backend.
+
+The product uses geofencing and location data to deliver time-limited vouchers
+when a user is close to a participating retailer. The result joins mobile UX,
+cloud services and location-aware behaviour into one coherent product rather
+than treating them as separate technical features.
+
+## Responsibilities
+
+- Cross-platform mobile architecture and implementation
+- Firebase backend setup and configuration
+- Geofencing and location-aware product behaviour
+- End-to-end freelance delivery

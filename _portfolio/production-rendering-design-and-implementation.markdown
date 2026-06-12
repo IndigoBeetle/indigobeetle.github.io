@@ -1,21 +1,28 @@
 ---
 layout: page
 title: Production Rendering - Design and Implementation
+card-title: Production Rendering
 categories:
   - Publications
+  - Graphics
+  - Software Engineering
 image: /images/portfolio/prod_rend.png
 description: A unique look at how 3D photorealistic rendering works in a
   production environment, from an implementation perspective.
+discipline: Technical Publication
+featured: true
+order: 50
 ---
-Production Rendering: Design and Implementation provides not only a complete framework of different topics including shading engines and compilers, but discusses also the techniques used to implement feature film quality rendering engines.
+*Production Rendering: Design and Implementation* explains how
+feature-film-quality rendering systems are designed and built, including
+shading engines, compilers and the wider architecture of a production renderer.
 
-I was a co-author of this book, working with some very influential people in the production quality rendering technologies field...
+I contributed as a co-author alongside specialists including Mark Elendt, Rick
+LaMont, Jacopo Pantaleoni, Scott Iverson, Matthew Bentham and Ian Stephenson.
+My involvement grew from the technical depth and open-source work demonstrated
+through Aqsis.
 
-* Mark Elendt
-* Rick LaMont
-* Jacopo Pantaleoni
-* Scott Iverson
-* Matthew Bentham
-* Ian Stephenson
+The project is evidence not only of graphics expertise, but of the ability to
+explain complex engineering clearly enough to be useful to other practitioners.
 
-[Springer Verlag](https://link.springer.com/book/10.1007/b138603)
+View the book at [Springer](https://link.springer.com/book/10.1007/b138603).

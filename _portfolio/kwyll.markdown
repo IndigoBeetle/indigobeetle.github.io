@@ -1,11 +1,16 @@
 ---
 title: Kwyll
 categories:
+- Creative Technology
 - Games
 - Retro
+- Software Engineering
 layout: page
 image: "/images/portfolio/kwyll2.png"
-description: A tool for creating games on 8bit systems of the 80's and 90's.
+description: A visual game-authoring system for constrained 8-bit hardware.
+discipline: Creative Tools
+featured: true
+order: 60
 ---
 
 <figure>
@@ -15,11 +20,21 @@ description: A tool for creating games on 8bit systems of the 80's and 90's.
 <br/>
 
 
-Kwyll is a PC (Windows, Linux and Mac) based tool to help create retro games for
-the old 8bit platforms of the 80's and 90's, initially targeting the Sinclair
-ZX Spectrum. It is designed to be easy to use and fun for non-programmers to realise
-their 2D retro styled game ideas, within the extreme constraints of the platforms
-of that era, i.e. 48kb of memory, a 3.5MHz Z80 processor and a beeper for sound.
+## The Product
 
-Find out more [here](https://www.kwyll.com).
+Kwyll is a visual game-authoring tool for Windows, Linux and macOS. It enables
+people to create games for 8-bit computers, initially the Sinclair ZX Spectrum,
+without requiring them to become assembly-language programmers.
 
+## The Design Problem
+
+The target machine has 48 KB of memory, a 3.5 MHz Z80 processor and a beeper
+for sound. Kwyll has to provide a friendly modern authoring experience while
+continuously respecting those hard runtime constraints.
+
+The project combines desktop product design, visual tooling, compilers and code
+generation, a custom runtime, low-level assembly and the practical concerns of
+cross-platform delivery. It is both a game-development project and a broader
+example of building specialist software around the needs of creative users.
+
+Find out more at [kwyll.com](https://www.kwyll.com).

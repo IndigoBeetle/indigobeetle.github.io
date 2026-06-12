@@ -6,6 +6,8 @@ categories:
 image: /images/portfolio/screenshot-2023-03-01-at-16.58.25.png
 description: A simple, free, no frills Sudoku game, because I didn't like any of
   the options in the App Store.
+discipline: Product Design
+order: 170
 ---
 <figure>
     <img src="/images/portfolio/sudoku.png" width="50%" alt="Free Sudoku Screenshot">

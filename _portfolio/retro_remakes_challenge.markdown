@@ -1,11 +1,14 @@
 ---
 layout: page
-title: Retro Remakes Challange
+title: Retro Remakes Challenge
 categories:
   - Games
+  - Retro
 image: /images/blog/summary-labelled.png
 description: |
   A personal challenge to remake 12 classic ZX Spectrum games in 12 months.
+discipline: Delivery Challenge
+order: 160
 ---
 <figure>
     <img src="/images/blog/summary-labelled.png" width="100%" alt="Header Image">

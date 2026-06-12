@@ -4,7 +4,9 @@ categories:
 - Games
 layout: page
 image: "/images/portfolio/fruit-thumb.png"
-description: A frantic fun take on the match 3 game
+description: A fast-paced match-three game developed across multiple engines.
+discipline: Game Development
+order: 120
 ---
 
 <figure>
@@ -18,7 +20,7 @@ description: A frantic fun take on the match 3 game
 FruitSpritzer has gone through more iterations than any other personal project
 I've worked on. Starting out as a game created to experiment with the
 [Corona2D](https://coronalabs.com/) engine, I then ported the same code to
-Javascript (from Lua) to implement in [Phaser](https://phaser.io/), and finally
+JavaScript (from Lua) to implement in [Phaser](https://phaser.io/), and finally
 ported to [Godot](https://godotengine.org/), which is what you can find at the
 link below.
 

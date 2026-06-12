@@ -23,10 +23,10 @@
       <div class="col-md-8 col-md-push-2">
         <div class="filter-menu">
           <ul>
-            <li data-filter="all" class="current">All</li>
+            <li data-filter=".featured" class="current">Selected Work</li>
+            <li data-filter="all">All Work</li>
 
-	    {% assign categories =  site.portfolio | map: 'categories' | join: ','  | split: ',' | uniq %}
-	    {% for category in categories %}
+	    {% for category in site.portfolio-filters %}
               <li data-filter=".{{ category | replace:' ','-' | downcase }}" >{{ category }}</li>
 	    {% endfor %}
 
@@ -38,24 +38,21 @@
     <!-- Portfolio Grid -->
     <div class="row portfolio-grid">
 
-      {% for item in site.portfolio %}
+      {% assign portfolio_items = site.portfolio | sort: 'order' %}
+      {% for item in portfolio_items %}
 
-      <div class="col-md-4 col-sm-6 item visible {% for category in item.categories %} {{ category | replace:' ','-' | downcase }}{% endfor %}">
-        <figure class="img-wrap">
-          {% if item.thumb %}
-            <img src="{{ site.baseurl }}{{ item.thumb }}" alt="Portfolio Item Image" />
-          {% else %}
-            <img src="{{ site.baseurl }}{{ item.image }}" alt="Portfolio Item Image" />
-          {% endif %}
-        </figure>
-        <a href="{{ item.url }}">
-          <div class="item-content">
-            <h3>{{ item.title }}</h3>
-            <h4>{{ item.categories | first }}</h4>
-            {% if item.description %}
-              <p class="item-description">{{ item.description }}</p>
+      <div class="col-md-4 col-sm-6 item{% if item.featured %} visible featured{% endif %}{% for category in item.categories %} {{ category | replace:' ','-' | downcase }}{% endfor %}">
+        <a class="portfolio-card-link" href="{{ item.url }}" aria-label="View {{ item.title }} project details">
+          <figure class="img-wrap">
+            {% if item.thumb %}
+              <img src="{{ site.baseurl }}{{ item.thumb }}" alt="" />
+            {% else %}
+              <img src="{{ site.baseurl }}{{ item.image }}" alt="" />
             {% endif %}
-          </div>
+            <figcaption class="item-title">
+            <h3>{{ item.card-title | default: item.title }}</h3>
+            </figcaption>
+          </figure>
         </a>
       </div>
 

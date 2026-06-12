@@ -3376,13 +3376,18 @@ section.portfolio-section .portfolio-grid {
 }
 section.portfolio-section .portfolio-grid .item {
   padding: 0.5rem;
-  display: block;
+  display: none;
   position: relative;
   overflow: hidden;
   transform: scale(0.95);
   transition: all 300ms ease-in-out;
   height: 200px;
   max-height: 200px;
+}
+section.portfolio-section .portfolio-grid .item .portfolio-card-link {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 section.portfolio-section .portfolio-grid .item .img-wrap {
   background: #32004b;
@@ -3396,12 +3401,35 @@ section.portfolio-section .portfolio-grid .item .img-wrap img {
   max-height: 100%;
   object-fit: contain;
 }
+section.portfolio-section .portfolio-grid .item .img-wrap .item-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-height: 64px;
+  padding: 12px 20px;
+  color: #fff;
+  background: rgba(136, 0, 206, 0.88);
+  transition: background 300ms ease-in-out;
+}
+section.portfolio-section .portfolio-grid .item .img-wrap .item-title h3 {
+  margin: 0;
+  color: inherit;
+  font-size: 1.25rem;
+  line-height: 1.15;
+  text-align: center;
+  text-transform: uppercase;
+}
 section.portfolio-section .portfolio-grid .item.visible {
+  display: block;
   opacity: 0;
   transform: scale(1) translateX(12%);
 }
-section.portfolio-section .portfolio-grid .item.visible:hover .item-content {
-  transform: translateY(0);
+section.portfolio-section .portfolio-grid .item:hover .item-title, section.portfolio-section .portfolio-grid .item:focus-within .item-title {
+  background: rgba(111, 0, 168, 0.98);
 }
 section.portfolio-section .portfolio-grid .item.is-showing {
   opacity: 0.3;
@@ -3409,59 +3437,6 @@ section.portfolio-section .portfolio-grid .item.is-showing {
 section.portfolio-section .portfolio-grid .item.is-showing.visible {
   opacity: 1;
   transform: scale(1) translateX(0);
-}
-section.portfolio-section .portfolio-grid .item .item-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  top: 0;
-  left: 0.5rem;
-  right: 0.5rem;
-  top: 0.5rem;
-  bottom: 0;
-  color: #fff;
-  background: rgba(149, 0, 224, 0.8);
-  transform: translateY(100%);
-  transition: all 300ms ease-in-out;
-}
-section.portfolio-section .portfolio-grid .item .item-content h3, section.portfolio-section .portfolio-grid .item .item-content h4 {
-  text-transform: uppercase;
-}
-section.portfolio-section .portfolio-grid .item .item-content h4 {
-  font-style: italic;
-}
-section.portfolio-section .portfolio-grid .item .item-content h3 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-  text-align: center;
-}
-section.portfolio-section .portfolio-grid .item .item-content .links {
-  margin-top: 20px;
-}
-section.portfolio-section .portfolio-grid .item .item-content .links ul li {
-  display: inline-block;
-  font-size: 1.9rem;
-}
-section.portfolio-section .portfolio-grid .item .item-content .links ul li a {
-  display: block;
-  padding: 5px;
-  color: #fff;
-  background: rgba(255, 255, 255, 0.2);
-}
-section.portfolio-section .portfolio-grid .item .item-content .links ul li a:hover {
-  background: rgba(255, 255, 255, 0.4);
-}
-section.portfolio-section .portfolio-grid .item .item-content .links ul li a span span.hidden-text {
-  height: 1px;
-  width: 1px;
-  position: absolute;
-  overflow: hidden;
-  top: -10px;
-}
-section.portfolio-section .portfolio-grid .item .item-content p.item-description {
-  text-align: center;
 }
 section.portfolio-section .portfolio-grid .overlay {
   display: none;

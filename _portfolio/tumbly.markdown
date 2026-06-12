@@ -2,9 +2,14 @@
 title: Tumbly Rocks
 categories:
 - Games
+- Mobile
+- Software Engineering
 layout: page
 image: "/images/portfolio/tumbly-rocks-ipad.png"
-description: A casual puzzler for iOS and Android
+description: A cross-platform mobile game with LiveOps, remote content and designer tooling.
+discipline: Games & LiveOps
+featured: true
+order: 70
 ---
 
 <figure>
@@ -16,28 +21,28 @@ description: A casual puzzler for iOS and Android
 <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/R-dNjCnR9O8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 
-While working as the sole technical partner in a 2 person indie studio,
-Tumbly Games, I created the game Tumbly Rocks, a casual puzzler designed
-by the creative partner in the team. Tumbly Rocks involves a unique game 
-mechanic, splashing rocks into the water before they reach the bottom of
-the screen, where a crusher awaits to cause serious damage. 
+## The Product
 
-The game is a LiveOps game, so the project included developing complete
-backend systems to deliver updates to the game over the network without
-requiring regular game updates on the device, including:
+As the sole technical partner in the two-person Tumbly Games studio, I built
+Tumbly Rocks for iOS and Android around an original puzzle design from my
+creative partner.
 
+## Beyond the Game Client
 
-1. Deliver new levels.
-2. Create new game elements, with a complex and flexible behaviour
-configuration system. 
-3. Tweak game difficulty and progression controls.
-4. Add and update tutorials and guides throughout the game.
+The product was designed for LiveOps. I created the supporting systems needed
+to change and expand the game without relying on a new store release for every
+content update:
 
+1. Remote delivery of new levels
+2. Configurable game elements and behaviours
+3. Difficulty and progression tuning
+4. Updatable tutorials and in-game guidance
 
+I also built an in-game level design tool that runs on the target device,
+allowing the designer to create, test and refine content directly. Procedural
+generation tools could produce thousands of level variations from a controlled
+set of parts and rules.
 
-In addition to the game itself, I created a powerful level design tool
-built into the game and runnable on device, to allow the game designer
-to develop new levels easily on device. The tool has some powerful features
-to allow procedural generation of thousands of levels from a defined set
-of parts and rules.
-
+The result demonstrates the broader engineering behind a sustainable game:
+client development, content pipelines, backend-driven configuration and tools
+that let a small team work effectively.

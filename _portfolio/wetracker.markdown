@@ -3,9 +3,14 @@ title: WeTracker
 categories:
 - Digital Audio
 - Web Applications
+- Creative Technology
+- Software Engineering
 layout: page
 image: "/images/portfolio/wetracker2.png"
-description: A tracker style music tool for the browser.
+description: A full-featured browser music workstation built on the Web Audio API.
+discipline: Web Audio
+featured: true
+order: 40
 ---
 
 <figure>
@@ -14,27 +19,25 @@ description: A tracker style music tool for the browser.
 </figure>
 <br/>
 
+## The Product
 
+WeTracker is a browser-based music workstation inspired by the tracker tools
+used in the 1990s demo scene. It began as an experiment and grew into a
+full-featured authoring environment with an open-source community around it.
 
-Initially starting as a fun experiment, WeTracker has grown into a fully
-featured music authoring tool based on the 'tracker' style tools of the early
-90's, often featured in the demo scene of the time.
+## The Engineering
 
-Rather than playing .wav or .mp3 files, WeTracker works with the highly
-optimised FastTrackerII .mod files. Built into the software is a complete
-implementation of the audio rendering technique used by the tracker software of
-the time, which provides mixing of multiple tracks of audio, with various
-effects that can be applied at runtime, all built on top of the modern 
-[WebAudio](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API)
-API available in modern browsers.
+Rather than simply playing recorded audio, WeTracker implements the playback
+and mixing model used by FastTracker II modules. Multiple channels, instruments
+and runtime effects are rendered through the modern
+[Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API).
 
-While able to load .XM files from the classic trackers from back in the day, 
-WeTracker has evolved to include more functionality, including the ability to
-apply filter chains to any track.
+The application can load classic XM files and extends the tracker model with
+modern features, including per-track filter chains. Building it required
+low-level audio knowledge, careful timing and state management, and the
+interaction design needed to make a dense creative tool usable in a browser.
 
-The software in its current form is available for you to play with and have fun
-[here](https://www.indigobeetle.co.uk/static/wetracker/), try out the sample 
-songs included in the "browser" window in the lower right of the interface, or 
-try out one of the many .XM files available from [here](https://modarchive.org/index.php).
+## Explore
 
-The code is on Github [here](https://github.com/pgregory/wetracker).
+Try [WeTracker online](https://www.indigobeetle.co.uk/static/wetracker/) or
+view the [source code on GitHub](https://github.com/pgregory/wetracker).

@@ -2,9 +2,12 @@
 title: Mahjong Towers
 categories:
 - Games
+- Mobile
 layout: page
 image: "/images/portfolio/mahjong_towers.jpeg"
 description: An innovative mashup between Mahjong and Tetris, available on the Android and iOS stores.
+discipline: Mobile Games
+order: 140
 ---
 
 <figure>
@@ -25,4 +28,3 @@ Play the game on
 width="270"}](https://apps.apple.com/us/app/mahjong-towers/id1584666453)
 or
 [![Android](/images/GetItOnGooglePlay_Badge_Web_color_English.png){:width="270"}](https://play.google.com/store/apps/details?id=uk.co.indigobeetle.mahjongtowers)
-

@@ -3,8 +3,11 @@ layout: page
 title: Tumbly Match
 categories:
   - Games
+  - Mobile
 image: /images/portfolio/tumbly_match.png
 description: A casual puzzler for iOS
+discipline: Mobile Games
+order: 180
 ---
 <figure>
     <img src="/images/portfolio/tumbly_match.png" width="100%" alt="Game Screenshot">

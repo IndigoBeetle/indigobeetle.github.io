@@ -32,6 +32,12 @@
             margin-top: 15px;
             margin-bottom: 15px;
           }
+
+          .split-heading {
+            width: calc(100vw - 40px);
+            column-gap: 70px;
+            font-size: clamp(2rem, 5.2vw, 3.25rem);
+          }
         }
       }
 
@@ -206,13 +212,16 @@
 
     // Header Banner
     .header-banner {
-      .heading-title {
-        h1 {
-          font-size: 3rem;
-        }
+      .heading-content {
+        .heading-title {
+          .split-heading {
+            column-gap: 50px;
+            font-size: clamp(2rem, 5.4vw, 2.75rem);
+          }
 
-        h2 {
-          font-size: 1.75rem;
+          h2 {
+            font-size: 1.75rem;
+          }
         }
       }
     }
@@ -262,14 +271,30 @@
   // Site Header on small devices
   header.site-header {
     .header-banner {
+      .heading-content {
+        padding: 0 20px;
 
-      .heading-title {
-        h1 {
-          font-size: 2.4rem;
-        }
+        .heading-title {
+          .split-heading {
+            display: block;
+            width: auto;
+            margin-left: 0;
+            transform: none;
+            font-size: 2.35rem;
 
-        h2 {
-          font-size: 1.3rem;
+            .split-heading-left,
+            .split-heading-right {
+              text-align: center;
+            }
+
+            .split-heading-right {
+              margin-top: 8px;
+            }
+          }
+
+          h2 {
+            font-size: 1.3rem;
+          }
         }
       }
 

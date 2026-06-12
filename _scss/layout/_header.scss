@@ -136,6 +136,33 @@ header.site-header {
           margin-top: 40px;
           margin-bottom: 40px;
         }
+
+        .split-heading {
+          display: grid;
+          grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+          column-gap: 110px;
+          width: calc(100vw - 80px);
+          max-width: 1440px;
+          margin-left: 50%;
+          transform: translateX(-50%);
+          font-size: clamp(2.4rem, 4.6vw, 5rem);
+          line-height: 0.98;
+
+          span {
+            display: block;
+          }
+
+          .split-heading-left {
+            font-weight: 700;
+            text-align: right;
+          }
+
+          .split-heading-right {
+            font-weight: 300;
+            font-style: italic;
+            text-align: left;
+          }
+        }
       }
 
       .buttons-header {

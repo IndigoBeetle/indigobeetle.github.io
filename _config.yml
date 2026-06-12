@@ -20,7 +20,8 @@ exclude:
 - package.json
 - README-sera.md
 lang: en-GB
-header-title: "<strong>Software Engineering</strong> <em>Creative Technology</em>"
+header-title-left: Software Engineering
+header-title-right: Creative Technology
 headter-tagline: From product strategy to production-ready systems
 baseurl: 
 email: pgregory@indigobeetle.co.uk

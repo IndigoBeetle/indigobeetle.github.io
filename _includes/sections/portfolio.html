@@ -46,8 +46,12 @@
           <figure class="img-wrap">
             {% if item.thumb %}
               <img src="{{ site.baseurl }}{{ item.thumb }}" alt="" />
-            {% else %}
+            {% elsif item.image %}
               <img src="{{ site.baseurl }}{{ item.image }}" alt="" />
+            {% else %}
+              <div class="portfolio-placeholder" aria-hidden="true">
+                <span>{{ item.placeholder | default: item.card-title | default: item.title }}</span>
+              </div>
             {% endif %}
             <figcaption class="item-title">
             <h3>{{ item.card-title | default: item.title }}</h3>

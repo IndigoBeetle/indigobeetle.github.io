@@ -51,7 +51,7 @@ about-description: |
   My career spans video games, real-time 3D and virtual reality, film and
   television production, web and mobile products, digital audio and insurtech.
   I have worked hands-on as an engineer, led teams and technical strategy, and
-  operated at CTO level.
+  operated at CTO level, including leading Kantar Retail Virtual Reality as CTO.
   <br/>  
   <br/>  
   I am most useful where the brief is complex: understanding a specialist
@@ -76,7 +76,8 @@ features:
 - title: Architecture & Technical Leadership
   description: |
     Technical discovery, system design, delivery planning, team leadership and
-    mentoring. I can set direction at product or platform level and remain
+    mentoring. I can set direction at product or platform level, including
+    CTO-level strategy, budgets and distributed engineering teams, and remain
     hands-on where implementation needs senior attention.
   icon: fa fa-diagram-project
 - title: Games & Interactive Experiences
@@ -100,12 +101,15 @@ features:
 portfolio-title: Portfolio
 portfolio-description: |
   Selected case studies from commercial, open-source and independent work
-  across software platforms, creative tooling, graphics, mobile, web, audio and
-  games. The first view is curated for breadth; use the filters to explore the
-  full archive.
+  across technical leadership, software platforms, creative tooling, graphics,
+  mobile, web, audio and games. The first view is curated for breadth; use the
+  filters to explore the full archive.
 portfolio-filters:
+- Technical Leadership
 - Software Engineering
 - Creative Technology
+- Virtual Reality
+- Production Systems
 - Games
 - Mobile
 - Web Applications

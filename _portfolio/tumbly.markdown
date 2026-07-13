@@ -8,7 +8,7 @@ layout: page
 image: "/images/portfolio/tumbly-rocks-ipad.png"
 description: A cross-platform mobile game with LiveOps, remote content and designer tooling.
 discipline: Games & LiveOps
-featured: true
+featured: false
 order: 70
 ---
 

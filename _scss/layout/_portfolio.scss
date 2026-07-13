@@ -102,6 +102,34 @@ section.portfolio-section {
           object-fit: contain;
         }
 
+        .portfolio-placeholder {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+          height: 100%;
+          min-height: 200px;
+          color: $white;
+          background:
+            linear-gradient(
+              135deg,
+              transparentize(color.scale($primary, $lightness: -35%), 0.06),
+              transparentize(color.scale($light-blue, $lightness: -25%), 0.18)
+            );
+
+          span {
+            display: block;
+            padding: 0 24px 42px;
+            color: transparentize($white, 0.05);
+            font-size: 3.25rem;
+            font-weight: 700;
+            letter-spacing: 0.12rem;
+            line-height: 1;
+            text-align: center;
+            text-transform: uppercase;
+          }
+        }
+
         .item-title {
           display: flex;
           align-items: center;

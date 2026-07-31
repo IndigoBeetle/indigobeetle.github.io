@@ -38,3 +38,6 @@ It also shows a recurring strength in my work: being able to enter an unfamiliar
 business domain, learn enough of the operational reality to make sensible
 technical decisions, and produce a tool that is useful to the people doing the
 work every day.
+
+[Read Jonathan Privett's testimonial about my work with the Rushes Film & TV
+team.](/#jonathan-privett-rushes)

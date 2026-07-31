@@ -27,7 +27,7 @@
         {% for client in site.testimonials %}
 
         <!-- Client Testimonial -->
-        <div class="client-testimonial text-center">
+        <div class="client-testimonial text-center"{% if client.anchor %} id="{{ client.anchor }}"{% endif %}>
           <!-- Testimonials Face -->
           <div class="testimonial-face">
 

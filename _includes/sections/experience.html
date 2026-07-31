@@ -1,0 +1,31 @@
+<!-- Experience Section -->
+<section class="site-section experience-section" id="experience">
+  <div class="container">
+    <div class="row text-center">
+      <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
+        <h2>{{ site.experience-title }}</h2>
+        <hr class="normal">
+      </header>
+      <div class="col-md-8 col-md-push-2 col-sm-12 section-content">
+        <p>{{ site.experience-description }}</p>
+      </div>
+    </div>
+
+    <ol class="career-timeline">
+      {% for item in site.experience %}
+      <li class="career-item">
+        <div class="career-period">{{ item.period }}</div>
+        <div class="career-detail">
+          <h3>{{ item.role }}</h3>
+          <p class="career-company">{{ item.company }}</p>
+          <p>{{ item.summary }}</p>
+        </div>
+      </li>
+      {% endfor %}
+    </ol>
+
+    <p class="career-link text-center">
+      <a href="{{ site.linkedin }}" target="_blank" rel="noopener">View the full career history on LinkedIn <span aria-hidden="true">→</span></a>
+    </p>
+  </div>
+</section>

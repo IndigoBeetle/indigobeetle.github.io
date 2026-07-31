@@ -204,3 +204,100 @@ section.portfolio-section {
   }
 
 }
+
+// Career timeline lives alongside the portfolio as the bridge between
+// professional history and detailed case studies.
+section.experience-section {
+  background: #f7f8fa;
+
+  .section-header h2 { color: #1c2f42; }
+}
+
+.career-timeline {
+  position: relative;
+  max-width: 940px;
+  margin: 55px auto 35px;
+  padding: 0;
+  list-style: none;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 8px;
+    bottom: 8px;
+    left: 174px;
+    width: 2px;
+    background: #d7dde2;
+  }
+}
+
+.career-item {
+  position: relative;
+  display: grid;
+  grid-template-columns: 145px 1fr;
+  gap: 58px;
+  padding: 0 0 34px;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 7px;
+    left: 168px;
+    width: 14px;
+    height: 14px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    background: $primary;
+    box-shadow: 0 0 0 1px $primary;
+  }
+}
+
+.career-period {
+  padding-top: 2px;
+  color: #607080;
+  font-size: .95rem;
+  font-weight: 700;
+  text-align: right;
+  letter-spacing: .04em;
+}
+
+.career-detail {
+  h3 {
+    margin: 0 0 3px;
+    color: #1c2f42;
+    font-size: 1.3rem;
+    text-transform: none;
+  }
+
+  p { margin: 0; line-height: 1.65; }
+  .career-company { margin-bottom: 7px; color: $primary; font-weight: 700; }
+}
+
+.career-link a { font-weight: 700; }
+
+@media (max-width: 767px) {
+  .career-timeline:before { left: 7px; }
+  .career-item { display: block; padding: 0 0 34px 34px; }
+  .career-item:before { left: 1px; }
+  .career-period { margin-bottom: 5px; text-align: left; }
+}
+
+.nourish-screenshots {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+  margin: 30px 0;
+
+  figure { margin: 0; }
+
+  img {
+    display: block;
+    width: 100%;
+    border-radius: 16px;
+    box-shadow: 0 12px 30px rgba(15, 28, 42, .18);
+  }
+}
+
+@media (max-width: 767px) {
+  .nourish-screenshots { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}

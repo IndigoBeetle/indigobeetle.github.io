@@ -298,6 +298,30 @@ table {
     display: none !important;
   }
 }
+
+.nourish-screenshots {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+  margin: 30px 0;
+}
+
+.nourish-screenshots figure {
+  margin: 0;
+}
+
+.nourish-screenshots img {
+  display: block;
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(15, 28, 42, 0.18);
+}
+
+@media (max-width: 767px) {
+  .nourish-screenshots {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
 @media (min-width: 768px) and (max-width: 991px) {
   .hidden-sm {
     display: none !important;
@@ -3322,7 +3346,6 @@ section.features-section .feature .icon .circle {
   margin: 0 auto;
   margin-bottom: 40px;
   border: 4px solid #d177ff;
-  transition: all 300ms ease-in-out;
 }
 section.features-section .feature .icon .circle .circle {
   width: 50%;
@@ -3333,7 +3356,6 @@ section.features-section .feature .icon .circle .circle {
 section.features-section .feature .icon .circle .circle i {
   font-size: 3rem;
   color: #2c3e50;
-  transition: all 300ms ease-in-out;
 }
 section.features-section .feature .icon .circle .circle i:before {
   padding-left: 3%;
@@ -3343,25 +3365,6 @@ section.features-section .feature .content h3 {
   text-transform: uppercase;
   margin-bottom: 1.25rem;
 }
-section.features-section .feature .content h3, section.features-section .feature .content p {
-  transition: color 300ms ease-in-out;
-}
-section.features-section .feature:hover .icon .circle {
-  border-color: #bdc3c7;
-}
-section.features-section .feature:hover .icon .circle .circle {
-  background: #d177ff;
-}
-section.features-section .feature:hover .icon .circle .circle i {
-  color: #fff;
-}
-section.features-section .feature:hover .content h3 {
-  color: #d177ff;
-}
-section.features-section .feature:hover .content p {
-  color: #2c3e50;
-}
-
 /**
  *
  *  Portfolio Section Style
@@ -3431,6 +3434,105 @@ section.portfolio-section .portfolio-grid .item .portfolio-card-link {
   display: block;
   width: 100%;
   height: 100%;
+}
+
+/* Career timeline */
+section.experience-section {
+  background: #f7f8fa;
+}
+
+section.experience-section .section-header h2 {
+  color: #1c2f42;
+}
+
+.career-timeline {
+  position: relative;
+  max-width: 940px;
+  margin: 55px auto 35px;
+  padding: 0;
+  list-style: none;
+}
+
+.career-timeline:before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  bottom: 8px;
+  left: 174px;
+  width: 2px;
+  background: #d7dde2;
+}
+
+.career-item {
+  position: relative;
+  display: grid;
+  grid-template-columns: 145px 1fr;
+  gap: 58px;
+  padding: 0 0 34px;
+}
+
+.career-item:before {
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: 168px;
+  width: 14px;
+  height: 14px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  background: #00a8e8;
+  box-shadow: 0 0 0 1px #00a8e8;
+}
+
+.career-period {
+  padding-top: 2px;
+  color: #607080;
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-align: right;
+  letter-spacing: 0.04em;
+}
+
+.career-detail h3 {
+  margin: 0 0 3px;
+  color: #1c2f42;
+  font-size: 1.3rem;
+  text-transform: none;
+}
+
+.career-detail p {
+  margin: 0;
+  line-height: 1.65;
+}
+
+.career-detail .career-company {
+  margin-bottom: 7px;
+  color: #00a8e8;
+  font-weight: 700;
+}
+
+.career-link a {
+  font-weight: 700;
+}
+
+@media (max-width: 767px) {
+  .career-timeline:before {
+    left: 7px;
+  }
+
+  .career-item {
+    display: block;
+    padding: 0 0 34px 34px;
+  }
+
+  .career-item:before {
+    left: 1px;
+  }
+
+  .career-period {
+    margin-bottom: 5px;
+    text-align: left;
+  }
 }
 section.portfolio-section .portfolio-grid .item .img-wrap {
   background: #32004b;

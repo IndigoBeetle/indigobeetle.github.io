@@ -98,6 +98,36 @@ features:
     services and cloud infrastructure. Experience includes Vue, React, Angular,
     Django, Node, ASP.NET, Flutter, React Native and Firebase.
   icon: fa fa-laptop-code
+experience-title: Career Highlights
+experience-description: |
+  I have spent my career close to the difficult parts of software: building the
+  platforms behind creative work, setting technical direction, and staying
+  hands-on enough to carry important ideas into production.
+experience:
+- period: 2019–2021
+  role: CTO & Co-founder
+  company: H23
+  summary: Built a mobile game and its complete LiveOps platform as the sole technical founder, spanning gameplay, backend services, infrastructure, analytics and designer-facing tools.
+- period: 2013–2017
+  role: Chief Technology Officer
+  company: Kantar Retail Virtual Reality
+  summary: Grew a four-person engineering group into a 35-person delivery organisation, introducing agile delivery, QA and DevOps while guiding product, security and technology strategy.
+- period: 2011–2013
+  role: Chief Software Architect
+  company: Ideaworks3D / Marmalade
+  summary: Set architecture and design practice across distributed mobile engineering teams, mentoring engineers and evaluating technology for a rapidly changing cross-platform market.
+- period: 2009–2011
+  role: Senior Software Architect
+  company: Glu Mobile
+  summary: Created cross-platform shader and content pipelines plus a maintainable, high-performance game-logic authoring system for internal game teams.
+- period: 2006–2009
+  role: Principal Engineer & Lead 3D Systems Architect
+  company: ARM / Rushes Postproduction
+  summary: Recruited from Superscape for specialist 3D graphics experience, I worked on shader compilers and drivers for ARM's newly acquired Falanx GPU technology before moving into rendering, simulation and production systems at Rushes.
+- period: 1986–2006
+  role: Research, Development & Technical Leadership
+  company: Incentive Software / Superscape
+  summary: Helped pioneer accessible real-time 3D and VR, then designed production tools used by multiple studios to create games for feature phones and early smartphones.
 portfolio-title: Portfolio
 portfolio-description: |
   Selected case studies from commercial, open-source and independent work
@@ -106,6 +136,7 @@ portfolio-description: |
   filters to explore the full archive.
 portfolio-filters:
 - Technical Leadership
+- Game Technology
 - Software Engineering
 - Creative Technology
 - Virtual Reality
@@ -121,6 +152,7 @@ testimonials-description: |
   alongside through my career.
 testimonials:
 - name: Michael Steliaros
+  anchor: michael-steliaros-glu
   avatar: steliaros.jpg
   url: https://www.linkedin.com/in/michaelsteliaros/
   url-text: Director of Research, Glu Mobile
@@ -138,6 +170,7 @@ testimonials:
     skill to get things done.
   logo-img: glu_logo.png
 - name: Zahir Mazhar
+  anchor: zahir-mazhar-krvr
   url: https://www.linkedin.com/in/zahir-mazhar-0541099/
   url-text: Technical Lead Project Manager, Red Dot Square Solutions Ltd.
   avatar: zahir.jpg
@@ -151,6 +184,7 @@ testimonials:
     on and involved in resolving issues.
   logo-img: rdss.gif
 - name: Jonathan Privett
+  anchor: jonathan-privett-rushes
   url: https://www.linkedin.com/in/jonathan-privett-0353941/
   url-text: Head of Film & TV, Rushes Postproduction
   avatar: jonathan.jpg
@@ -164,6 +198,7 @@ testimonials:
     architect.
   logo-img: rushes-postproduction.png
 - name: Bryan Salt
+  anchor: bryan-salt-superscape
   url: https://www.linkedin.com/in/bryan-salt-7869ab17/
   url-text: Global Creative Director, Superscape Ltd.
   avatar: bryan.jpg
@@ -181,6 +216,7 @@ testimonials:
     experienced and thoroughly nice chap.
   logo-img: superscape_logo.jpg
 - name: Gavin Simpson
+  anchor: gavin-simpson-arm
   url: https://www.linkedin.com/in/gavinssimpson/
   url-text: GPU Compute Engineer, ARM Holdings
   avatar: gavhead.jpg
